@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1e7682df12f99801",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 Network Fundamentals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7ba958d7da599a76",
@@ -112,7 +99,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 Network Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +115,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 Network Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,9 +136,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1 Network Fundamentals.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -176,6 +159,7 @@
   },
   "active": "c43cbd29592f6762",
   "lastOpenFiles": [
+    "1_Network_Fundamentals.md",
     "plugin/mermaid/plugin.js",
     "plugin/mermaid/mermaid.js",
     "plugin/mermaid/mermaid.esm.js",
@@ -186,7 +170,6 @@
     "plugin/zoom",
     "plugin/menu/plugin.js",
     "plugin/menu/menu.css",
-    "plugin/menu/menu.js",
     "plugin/menu/CONTRIBUTING.md",
     "plugin/menu/README.md",
     "plugin/chalkboard/img/chalk-purple.png",
