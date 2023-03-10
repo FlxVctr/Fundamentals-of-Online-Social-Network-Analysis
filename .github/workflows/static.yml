@@ -35,7 +35,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: './export/1%20Network%20Fundamentals/'
+          path: './export/1 Network Fundamentals'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
