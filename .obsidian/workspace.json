@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ee209087b1aa0787",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {}
-            }
-          },
-          {
             "id": "ad6d2d3a3e74b4d5",
             "type": "leaf",
             "state": {
@@ -27,8 +19,21 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "0096ab215c1def65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6562cce6fc572d20",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,12 +161,8 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "ad6d2d3a3e74b4d5",
+  "active": "6562cce6fc572d20",
   "lastOpenFiles": [
-    "README.md",
-    "2_Online_Media_Network_Fundamentals.md",
-    "2_Online_Media_Network_Fundamentals.md",
-    "1_Network_Fundamentals.md",
     "docs/2_Online_Media_Network_Fundamentals/plugin/chalkboard/README.md",
     "docs/2_Online_Media_Network_Fundamentals/plugin/chalkboard/_style.css",
     "docs/2_Online_Media_Network_Fundamentals/plugin/chalkboard/img/blackboard.png",
@@ -174,19 +175,23 @@
     "docs/2_Online_Media_Network_Fundamentals/plugin/chalkboard/img/boardmarker-yellow.png",
     "docs/2_Online_Media_Network_Fundamentals/plugin/chalkboard/img/chalk-blue.png",
     "docs/2_Online_Media_Network_Fundamentals/plugin/chalkboard/img/chalk-green.png",
-    "docs/2_Online_Media_Network_Fundamentals/plugin/chalkboard/img",
     "docs/2_Online_Media_Network_Fundamentals/plugin/chalkboard/style.css",
     "docs/2_Online_Media_Network_Fundamentals/plugin/chalkboard/plugin.js",
     "docs/2_Online_Media_Network_Fundamentals/plugin/chalkboard/plugin (copy).js",
+    "docs/2_Online_Media_Network_Fundamentals/plugin/chalkboard/img",
     "docs/2_Online_Media_Network_Fundamentals/plugin/chalkboard",
     "docs/2_Online_Media_Network_Fundamentals/plugin/chart/plugin.js",
     "docs/2_Online_Media_Network_Fundamentals/plugin/chart/chart.min.js",
     "docs/2_Online_Media_Network_Fundamentals/plugin/chart/README.md",
     "docs/2_Online_Media_Network_Fundamentals/plugin/chart",
+    "docs/2_Online_Media_Network_Fundamentals/plugin/customcontrols/style.css",
     "docs/2_Online_Media_Network_Fundamentals/plugin/customcontrols/README.md",
-    "docs/2_Online_Media_Network_Fundamentals/plugin/customcontrols/plugin.js",
     "docs/2_Online_Media_Network_Fundamentals/plugin/menu/CONTRIBUTING.md",
     "docs/2_Online_Media_Network_Fundamentals/plugin/menu/README.md",
+    "README.md",
+    "2_Online_Media_Network_Fundamentals.md",
+    "2_Online_Media_Network_Fundamentals.md",
+    "1_Network_Fundamentals.md",
     "docs/1_Network_Fundamentals/plugin/chalkboard/README.md",
     "docs/1_Network_Fundamentals/plugin/chart/README.md",
     "docs/1_Network_Fundamentals/plugin/customcontrols/README.md",
@@ -202,7 +207,6 @@
     "docs/plugin/customcontrols/README.md",
     "docs/plugin/chalkboard/README.md",
     "docs/plugin/chart/README.md",
-    "plugin/menu/CONTRIBUTING.md",
-    "plugin/menu/README.md"
+    "plugin/menu/CONTRIBUTING.md"
   ]
 }
