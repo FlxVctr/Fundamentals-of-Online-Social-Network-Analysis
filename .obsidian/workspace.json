@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1e7682df12f99801",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 Network Fundamentals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7ba958d7da599a76",
@@ -112,7 +99,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 Network Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +115,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 Network Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,9 +136,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1 Network Fundamentals.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -176,43 +159,49 @@
   },
   "active": "c43cbd29592f6762",
   "lastOpenFiles": [
-    "docs/css/layout.css",
-    "docs/css/vs2015.css",
-    "docs/css/mattropolis.css",
-    "docs/dist/reveal.js",
-    "docs/dist/reveal.js.map",
-    "docs/dist/theme/sky.css",
-    "docs/dist/theme/league.css",
-    "docs/dist/theme/fonts/league-gothic/league-gothic.css",
-    "docs/dist/theme/fonts/league-gothic",
-    "docs/dist/theme/fonts/source-sans-pro/source-sans-pro-semibold.eot",
-    "docs/dist/theme/fonts/source-sans-pro/source-sans-pro-italic.eot",
-    "docs/plugin/menu/CONTRIBUTING.md",
-    "docs/plugin/menu/README.md",
-    "docs/plugin/chalkboard/img/chalk-purple.png",
-    "docs/plugin/chalkboard/img/chalk-blue.png",
-    "docs/plugin/chalkboard/img/boardmarker-yellow.png",
-    "docs/plugin/chalkboard/img/blackboard.png",
-    "docs/plugin/chalkboard/img/boardmarker-black.png",
-    "docs/plugin/chalkboard/img/chalk-red.png",
-    "docs/plugin/chalkboard/img/boardmarker-blue.png",
-    "docs/plugin/chalkboard/img/chalk-orange.png",
-    "docs/plugin/chalkboard/img/chalk-white.png",
-    "docs/plugin/chalkboard/img/boardmarker-purple.png",
-    "docs/plugin/chalkboard/README.md",
-    "docs/plugin/customcontrols/README.md",
-    "docs/plugin/chart/README.md",
-    "export/1 Network Fundamentals/plugin/chalkboard/README.md",
-    "export/1 Network Fundamentals/plugin/chart/README.md",
-    "export/1 Network Fundamentals/plugin/customcontrols/README.md",
-    "export/1 Network Fundamentals/plugin/menu/CONTRIBUTING.md",
+    "export/1 Network Fundamentals/plugin/zoom/zoom.js",
+    "export/1 Network Fundamentals/plugin/zoom/zoom.esm.js",
+    "export/1 Network Fundamentals/plugin/zoom/plugin.js",
+    "export/1 Network Fundamentals/plugin/zoom",
+    "export/1 Network Fundamentals/plugin/search/search.js",
+    "export/1 Network Fundamentals/plugin/search/search.esm.js",
+    "export/1 Network Fundamentals/plugin/search/plugin.js",
+    "export/1 Network Fundamentals/plugin/search",
+    "export/1 Network Fundamentals/plugin/reveal-pointer/pointer.js",
+    "export/1 Network Fundamentals/plugin/reveal-pointer/pointer.css",
+    "export/1 Network Fundamentals/plugin/reveal-pointer",
     "export/1 Network Fundamentals/plugin/menu/README.md",
+    "export/1 Network Fundamentals/plugin/menu/CONTRIBUTING.md",
+    "export/1 Network Fundamentals/plugin/customcontrols/README.md",
+    "export/1 Network Fundamentals/plugin/chart/README.md",
+    "export/1 Network Fundamentals/plugin/chalkboard/img/whiteboard.png",
+    "export/1 Network Fundamentals/plugin/chalkboard/img/sponge.png",
+    "export/1 Network Fundamentals/plugin/chalkboard/img/chalk-yellow.png",
+    "export/1 Network Fundamentals/plugin/chalkboard/img/chalk-white.png",
+    "export/1 Network Fundamentals/plugin/chalkboard/img/chalk-red.png",
+    "export/1 Network Fundamentals/plugin/chalkboard/img/chalk-purple.png",
+    "export/1 Network Fundamentals/plugin/chalkboard/img/chalk-orange.png",
+    "export/1 Network Fundamentals/plugin/chalkboard/img/chalk-green.png",
+    "export/1 Network Fundamentals/plugin/chalkboard/img/boardmarker-purple.png",
+    "export/1 Network Fundamentals/plugin/chalkboard/img/chalk-blue.png",
+    "export/1 Network Fundamentals/plugin/chalkboard/README.md",
+    "docs/plugin/menu/README.md",
+    "docs/plugin/menu/CONTRIBUTING.md",
+    "docs/plugin/customcontrols/README.md",
+    "docs/plugin/chalkboard/README.md",
+    "docs/plugin/chart/README.md",
+    "1 Network Fundamentals.md",
+    "1_Network_Fundamentals.md",
+    "plugin/menu/CONTRIBUTING.md",
+    "plugin/menu/README.md",
+    "plugin/chalkboard/README.md",
+    "plugin/customcontrols/README.md",
+    "plugin/chart/README.md",
     "docs/1 Network Fundamentals/plugin/chalkboard/README.md",
     "docs/1 Network Fundamentals/plugin/chart/README.md",
     "docs/1 Network Fundamentals/plugin/customcontrols/README.md",
     "docs/1 Network Fundamentals/plugin/menu/CONTRIBUTING.md",
     "docs/1 Network Fundamentals/plugin/menu/README.md",
-    "README.md",
-    "1 Network Fundamentals.md"
+    "README.md"
   ]
 }
