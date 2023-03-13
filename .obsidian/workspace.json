@@ -22,11 +22,11 @@
         ]
       },
       {
-        "id": "0096ab215c1def65",
+        "id": "8176b3537a0aeda1",
         "type": "tabs",
         "children": [
           {
-            "id": "6562cce6fc572d20",
+            "id": "06c8a67f0a298ca9",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -161,7 +161,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "6562cce6fc572d20",
+  "active": "ad6d2d3a3e74b4d5",
   "lastOpenFiles": [
     "docs/2_Online_Media_Network_Fundamentals/plugin/chalkboard/README.md",
     "docs/2_Online_Media_Network_Fundamentals/plugin/chalkboard/_style.css",
