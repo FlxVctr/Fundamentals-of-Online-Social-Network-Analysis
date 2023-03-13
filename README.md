@@ -11,6 +11,8 @@ Under construction
 ## [2 Online Media Network Fundamentals](https://flxvctr.github.io/Fundamentals-of-Online-Social-Network-Analysis/2_Online_Media_Network_Fundamentals)
 
 # Practical 1
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FlxVctr/Fundamentals-of-Online-Social-Network-Analysis/HEAD)
 
 ## Data Collection
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FlxVctr/Fundamentals-of-Online-Social-Network-Analysis/HEAD?labpath=NB_1_Testing_Binder.ipynb)
+
+## Descriptive Statistics and Exploratory Visualisations
