@@ -10,6 +10,7 @@ Under construction
 
 # Practical 1
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FlxVctr/Fundamentals-of-Online-Social-Network-Analysis/HEAD)
+
 (Click to start a Jupyter Lab for the exercises)
 
 ## Data Collection
