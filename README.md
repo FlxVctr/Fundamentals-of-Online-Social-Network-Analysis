@@ -9,7 +9,7 @@ Under construction
 # [Lecture 1: Fundamentals](https://flxvctr.github.io/Fundamentals-of-Online-Social-Network-Analysis/1_Fundamentals)
 
 # Practical 1
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FlxVctr/Fundamentals-of-Online-Social-Network-Analysis/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FlxVctr/Fundamentals-of-Online-Social-Network-Analysis/HEAD) (Click to start a Jupyter Lab for the exercises)
 
 ## Data Collection
 
