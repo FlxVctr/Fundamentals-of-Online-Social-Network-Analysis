@@ -1,7 +1,7 @@
 ---
 
-theme: moon
-
+theme: serif
+transition: slide
 ---
 
 # 
@@ -14,6 +14,10 @@ Lecture 1
 ---
 
 # Who is this guy?
+
+note:
+* This is a test note
+* with two points
 
 ---
 
