@@ -16,10 +16,6 @@ Lecture 1
 
 # Who is this guy?
 
-note:
-* This is a test note
-* with two points
-
 ---
 
 # Why are you here?
@@ -68,24 +64,24 @@ Links between top level domains in 2012 ("Topology of the WDC Hyperlink Graph", 
 
 --
 
-# Influence (Some/Most?) Information Diffusion
+## Influence (Some/Most?) Information Diffusion
 
 \#Sydneysiege vs \#illridewithyou
 
 --
 
-# Lead to Classifiable Communication Patterns (Himmelboim et al.)
+## Lead to Classifiable Communication Patterns (Himmelboim et al.)
 
 --
 
-# Example: Polarisation
+## Example: Polarisation
 
 ![[Pasted image 20230314134413.png]]
 
 <small>Lada A. Adamic and Natalie Glance. 2005. The political blogosphere and the 2004 U.S. election: divided they blog. In Proceedings of the 3rd international workshop on Link discovery (LinkKDD '05). Association for Computing Machinery, New York, NY, USA, 36–43. https://doi.org/10.1145/1134271.1134277</small>
 
 --
-# Lead to Long-Term Structured Systems of Society
+## Lead to Long-Term Structured Systems of Society
 
 Mapping
 
