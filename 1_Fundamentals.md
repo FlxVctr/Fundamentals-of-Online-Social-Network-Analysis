@@ -7,7 +7,7 @@ theme: solarized
 
 # 
 
-# Fundamentals of Online (Social) Media Network Analysis
+# Fundamentals of Online ((Social) Media) Network Analysis
 
 Lecture 1
 
@@ -23,6 +23,12 @@ note:
 ---
 
 # Why are you here?
+
+Who are you?
+
+Why did you choose this course?
+
+What are your expectations for this day?
 
 ---
 
@@ -44,27 +50,31 @@ Practical on Data Collection and Exploratory Analysis with Descriptive Statistic
 
 ---
 
-# Online Social Networks
+# Online ((Social) Media) Networks
 
 --
 
-# Technical Networks
+## Not Technical Infrastructure Networks
 
 <iframe width="1070" height="600" src="https://www.youtube-nocookie.com/embed/tiGMgU6_1x4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 --
 
-# Online (Social) Media Networks
+## Mostly not Hyperlink Networks
+
+![[Pasted image 20230314153815.png|800]]
+
+Links between top level domains in 2012 ("Topology of the WDC Hyperlink Graph", http://km.aifb.kit.edu/sites/webdatacommons/hyperlinkgraph/topology.html)
 
 --
 
-# Information Diffusion
+# Influence (Some/Most?) Information Diffusion
 
 \#Sydneysiege vs \#illridewithyou
 
 --
 
-# Communication Patterns (Himmelboim et al.)
+# Lead to Classifiable Communication Patterns (Himmelboim et al.)
 
 --
 
@@ -75,7 +85,7 @@ Practical on Data Collection and Exploratory Analysis with Descriptive Statistic
 <small>Lada A. Adamic and Natalie Glance. 2005. The political blogosphere and the 2004 U.S. election: divided they blog. In Proceedings of the 3rd international workshop on Link discovery (LinkKDD '05). Association for Computing Machinery, New York, NY, USA, 36–43. https://doi.org/10.1145/1134271.1134277</small>
 
 --
-# Long-Term Structures
+# Lead to Long-Term Structured Systems of Society
 
 Mapping
 
@@ -83,3 +93,36 @@ Australian Twittersphere Visualisation
 
 German Twittersphere Visualisation
 
+---
+
+# Network Analysis Fundamentals
+
+--
+
+## Elements and Properties of Networks
+
+--
+
+## Measurements of Networks and their Elements
+
+--
+
+## Networks within Networks
+
+Cliques
+
+K-Cores
+
+Communities/Clusters
+
+--
+
+---
+
+# Data Sources for (Online ((Social) Media)) Networks
+
+Repositories
+
+APIs
+
+Scraping
