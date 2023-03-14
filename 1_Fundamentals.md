@@ -2,6 +2,7 @@
 transition: slide
 width: 1920
 height: 1080
+theme: solarized
 ---
 
 # 
