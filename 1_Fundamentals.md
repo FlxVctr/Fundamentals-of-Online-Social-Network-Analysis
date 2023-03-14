@@ -1,6 +1,4 @@
 ---
-
-theme: serif
 transition: slide
 ---
 
