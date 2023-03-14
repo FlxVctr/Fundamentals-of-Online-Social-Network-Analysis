@@ -1,5 +1,7 @@
 ---
 transition: slide
+width: 960
+height: 600
 ---
 
 # 
