@@ -3,6 +3,9 @@ transition: slide
 width: 1920
 height: 1080
 theme: solarized
+mermaid:
+	themeVariables:
+		fontsize: 128px
 ---
 
 # 
@@ -123,7 +126,7 @@ Himelboim, I., Smith, M. A., Rainie, L., Shneiderman, B., & Espina, C. (2017). _
 <small>Lada A. Adamic and Natalie Glance. 2005. The political blogosphere and the 2004 U.S. election: divided they blog. In Proceedings of the 3rd international workshop on Link discovery (LinkKDD '05). Association for Computing Machinery, New York, NY, USA, 36–43. https://doi.org/10.1145/1134271.1134277</small>
 
 --
-## Reflect Long-Term Structured Systems of Society
+## Reflect Long-Term Structured Systems of (Parts of) Society
 
 <small>Bruns, A., Moon, B., Münch, F. V., & Sadkowsky, T. (2017). The Australian Twittersphere in 2016: Mapping the follower/followee network. _Social Media + Society_, _3_(4). [https://doi.org/10.1177/2056305117748162](https://doi.org/10.1177/2056305117748162)
 
@@ -177,7 +180,50 @@ Münch, F. V., Thies, B., Puschmann, C., & Bruns, A. (2021). Walking Through Twi
 
 ## Elements and Properties of Networks
 
+--
 
+### Dyads
+
+```mermaid
+	graph
+	1((Node/Vertex/Actor)) -- Link/Edge/Relation --- 2((Node/Vertex/Actor))
+
+```
+
+--
+
+```mermaid
+	graph
+	1((Node)) -- directed Link --> 2((Node))
+
+```
+
+--
+
+```mermaid
+	graph
+	1((Node)) --> 2((Node))
+	2 --> 1
+```
+
+--
+
+### Triads
+
+```mermaid
+	graph LR
+	1((1)) --- 2((2))
+	2((2)) --- 3((3))
+	3((3)) --- 1((1))
+```
+
+--
+
+### Weighted Links & (Shortest) Paths
+
+![[Pasted image 20230318202256.png|800]]
+
+<small>CC-BY-SA [Artyom Kalinin](https://commons.wikimedia.org/wiki/User:Artyom_Kalinin "User:Artyom Kalinin") (https://en.wikipedia.org/wiki/Shortest_path_problem#/media/File:Shortest_path_with_direct_weights.svg)</small>
 
 --
 
