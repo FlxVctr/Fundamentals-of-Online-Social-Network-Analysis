@@ -4,8 +4,8 @@ width: 1920
 height: 1080
 theme: solarized
 mermaid:
-	themeVariables:
-		fontsize: 128px
+  themeVariables:
+    fontsize: 128px
 ---
 
 # 
@@ -61,7 +61,7 @@ Practical on Data Collection and Exploratory Analysis with Descriptive Statistic
 
 ## Mostly not Hyperlink Networks
 
-![[Pasted image 20230314153815.png|800]]
+![[Lecture_1_Fundamentals/Pasted image 20230314153815.png|800]]
 
 Links between top level domains in 2012 ("Topology of the WDC Hyperlink Graph", http://km.aifb.kit.edu/sites/webdatacommons/hyperlinkgraph/topology.html)
 
@@ -77,31 +77,31 @@ Münch, F. V. (2019). _Measuring the Networked Public – Exploring Network Scie
 
 ### \#illridewithyou
 
-![[Pasted image 20230318191040.png]]
+![[Lecture_1_Fundamentals/Pasted image 20230318191040.png]]
 
 --
 
-![[Pasted image 20230318191152.png]]
+![[Lecture_1_Fundamentals/Pasted image 20230318191152.png]]
 
 --
 
 ### \#sydneysiege
 
-![[Pasted image 20230318191306.png]]
+![[Lecture_1_Fundamentals/Pasted image 20230318191306.png|600]]
 
 --
 
-![[Pasted image 20230318191402.png]]
+![[Lecture_1_Fundamentals/Pasted image 20230318191402.png]]
 
 --
 
 ### Anti-Brexit petition
 
-![[Pasted image 20230318191655.png]]
+![[Lecture_1_Fundamentals/Pasted image 20230318191655.png]]
 
 --
 
-![[Pasted image 20230318191756.png]]
+![[Lecture_1_Fundamentals/Pasted image 20230318191756.png]]
 
 --
 
@@ -115,13 +115,13 @@ Himelboim, I., Smith, M. A., Rainie, L., Shneiderman, B., & Espina, C. (2017). _
 
 --
 
-![[Pasted image 20230318192527.png]]
+![[Lecture_1_Fundamentals/Pasted image 20230318192527.png]]
 
 --
 
 ## Example: Polarisation
 
-![[Pasted image 20230314134413.png]]
+![[Lecture_1_Fundamentals/Pasted image 20230314134413.png]]
 
 <small>Lada A. Adamic and Natalie Glance. 2005. The political blogosphere and the 2004 U.S. election: divided they blog. In Proceedings of the 3rd international workshop on Link discovery (LinkKDD '05). Association for Computing Machinery, New York, NY, USA, 36–43. https://doi.org/10.1145/1134271.1134277</small>
 
@@ -142,35 +142,35 @@ Münch, F. V., Thies, B., Puschmann, C., & Bruns, A. (2021). Walking Through Twi
 
 ### Australian Twittersphere
 
-![[Pasted image 20230318193253.png]]
+![[Lecture_1_Fundamentals/Pasted image 20230318193253.png]]
 
 --
 
-![[Pasted image 20230318193337.png]]
+![[Lecture_1_Fundamentals/Pasted image 20230318193337.png]]
 
 --
 
 ### German Twittersphere
 
-![[Pasted image 20230318193447.png]]
+![[Lecture_1_Fundamentals/Pasted image 20230318193447.png]]
 
 --
 
-![[Pasted image 20230318193530.png]]
+![[Lecture_1_Fundamentals/Pasted image 20230318193530.png]]
 
 --
 
 ### German-Italian Twittersphere
 
-![[Pasted image 20230318193900.png]]
+![[Lecture_1_Fundamentals/Pasted image 20230318193900.png]]
 
 --
 
-![[Pasted image 20230318193758.png]]
+![[Lecture_1_Fundamentals/Pasted image 20230318193758.png]]
 
 --
 
-![[Pasted image 20230318193931.png]]
+![[Lecture_1_Fundamentals/Pasted image 20230318193931.png]]
 
 ---
 
@@ -221,7 +221,7 @@ Münch, F. V., Thies, B., Puschmann, C., & Bruns, A. (2021). Walking Through Twi
 
 ### Weighted Links & (Shortest) Paths
 
-![[Pasted image 20230318202256.png|800]]
+![[Lecture_1_Fundamentals/Pasted image 20230318202256.png|800]]
 
 <small>CC-BY-SA [Artyom Kalinin](https://commons.wikimedia.org/wiki/User:Artyom_Kalinin "User:Artyom Kalinin") (https://en.wikipedia.org/wiki/Shortest_path_problem#/media/File:Shortest_path_with_direct_weights.svg)</small>
 
