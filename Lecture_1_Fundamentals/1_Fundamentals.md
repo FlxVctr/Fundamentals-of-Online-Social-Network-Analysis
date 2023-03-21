@@ -61,7 +61,7 @@ Practical on Data Collection and Exploratory Analysis with Descriptive Statistic
 
 ## Mostly not Hyperlink Networks
 
-![[Lecture_1_Fundamentals/Pasted image 20230314153815.png|800]]
+![[Pasted image 20230314153815.png|800]]
 
 Links between top level domains in 2012 ("Topology of the WDC Hyperlink Graph", http://km.aifb.kit.edu/sites/webdatacommons/hyperlinkgraph/topology.html)
 
@@ -77,31 +77,31 @@ Münch, F. V. (2019). _Measuring the Networked Public – Exploring Network Scie
 
 ### \#illridewithyou
 
-![[Lecture_1_Fundamentals/Pasted image 20230318191040.png]]
+![[Pasted image 20230318191040.png|x900]]
 
 --
 
-![[Lecture_1_Fundamentals/Pasted image 20230318191152.png]]
+![[Pasted image 20230318191152.png|x900]]
 
 --
 
 ### \#sydneysiege
 
-![[Lecture_1_Fundamentals/Pasted image 20230318191306.png|600]]
+![[Pasted image 20230318191306.png|x900]]
 
 --
 
-![[Lecture_1_Fundamentals/Pasted image 20230318191402.png]]
+![[Pasted image 20230318191402.png|x900]]
 
 --
 
 ### Anti-Brexit petition
 
-![[Lecture_1_Fundamentals/Pasted image 20230318191655.png]]
+![[Pasted image 20230318191655.png|x900]]
 
 --
 
-![[Lecture_1_Fundamentals/Pasted image 20230318191756.png]]
+![[Pasted image 20230318191756.png|x900]]
 
 --
 
@@ -115,13 +115,13 @@ Himelboim, I., Smith, M. A., Rainie, L., Shneiderman, B., & Espina, C. (2017). _
 
 --
 
-![[Lecture_1_Fundamentals/Pasted image 20230318192527.png]]
+![[Pasted image 20230318192527.png|x900]]
 
 --
 
 ## Example: Polarisation
 
-![[Lecture_1_Fundamentals/Pasted image 20230314134413.png]]
+![[Pasted image 20230314134413.png|x900]]
 
 <small>Lada A. Adamic and Natalie Glance. 2005. The political blogosphere and the 2004 U.S. election: divided they blog. In Proceedings of the 3rd international workshop on Link discovery (LinkKDD '05). Association for Computing Machinery, New York, NY, USA, 36–43. https://doi.org/10.1145/1134271.1134277</small>
 
@@ -142,35 +142,35 @@ Münch, F. V., Thies, B., Puschmann, C., & Bruns, A. (2021). Walking Through Twi
 
 ### Australian Twittersphere
 
-![[Lecture_1_Fundamentals/Pasted image 20230318193253.png]]
+![[Pasted image 20230318193253.png|x900]]
 
 --
 
-![[Lecture_1_Fundamentals/Pasted image 20230318193337.png]]
+![[Pasted image 20230318193337.png|x900]]
 
 --
 
 ### German Twittersphere
 
-![[Lecture_1_Fundamentals/Pasted image 20230318193447.png]]
+![[Pasted image 20230318193447.png|x900]]
 
 --
 
-![[Lecture_1_Fundamentals/Pasted image 20230318193530.png]]
+![[Pasted image 20230318193530.png|x900]]
 
 --
 
 ### German-Italian Twittersphere
 
-![[Lecture_1_Fundamentals/Pasted image 20230318193900.png]]
+![[Pasted image 20230318193900.png|x900]]
 
 --
 
-![[Lecture_1_Fundamentals/Pasted image 20230318193758.png]]
+![[Pasted image 20230318193758.png|x900]]
 
 --
 
-![[Lecture_1_Fundamentals/Pasted image 20230318193931.png]]
+![[Pasted image 20230318193931.png|x900]]
 
 ---
 
@@ -221,7 +221,7 @@ Münch, F. V., Thies, B., Puschmann, C., & Bruns, A. (2021). Walking Through Twi
 
 ### Weighted Links & (Shortest) Paths
 
-![[Lecture_1_Fundamentals/Pasted image 20230318202256.png|800]]
+![[Pasted image 20230318202256.png|x900]]
 
 <small>CC-BY-SA [Artyom Kalinin](https://commons.wikimedia.org/wiki/User:Artyom_Kalinin "User:Artyom Kalinin") (https://en.wikipedia.org/wiki/Shortest_path_problem#/media/File:Shortest_path_with_direct_weights.svg)</small>
 
@@ -231,15 +231,72 @@ Münch, F. V., Thies, B., Puschmann, C., & Bruns, A. (2021). Walking Through Twi
 
 --
 
-## Networks within Networks
-
-Cliques
-
-K-Cores
-
-Communities/Clusters
+### Node Measures
 
 --
+
+#### Important Centrality Measures
+
+##### (In/Out-)Degree Centrality
+
+##### Closeness Centrality
+
+##### Eigenvector Centrality
+
+##### Page Rank
+
+##### K-Coreness
+
+##### Betweenness-Centrality
+
+--
+
+#### Local Clustering Coefficient
+
+--
+
+### Network Measures
+
+#### Global Clustering Coefficient
+
+--
+
+#### Diameter
+
+--
+
+#### Density
+
+--
+
+## Networks within Networks
+
+--
+
+### (Weakly) Connected Components
+
+![[Pasted image 20230321174213.png|x900]]
+
+
+note:
+Image Public domain https://en.wikipedia.org/wiki/Component_(graph_theory)#/media/File:Pseudoforest.svg
+
+--
+
+### Cliques
+
+![[Pasted image 20230321174955.png|x900]]
+
+note:
+Image is Public Domain: https://en.wikipedia.org/wiki/Clique_(graph_theory)#/media/File:VR_complex.svg
+
+--
+
+### K-Cores
+
+--
+
+### Communities/Clusters
 
 ---
 
