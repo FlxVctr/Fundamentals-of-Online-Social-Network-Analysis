@@ -113,14 +113,10 @@ What are your expectations for this day?
 # The Plan
 
 1. Online (Social) Media Network Fundamentals
-
 2. Network fundamentals
-
-3. [Pause]
-
-4. Data Mining Possibilities and Difficulties
-
-5. Network Analysis Methods
+3. *break*
+4. Network Analysis Methods
+5. Data Mining Possibilities and Difficulties
 
 Afterwards:
 
@@ -324,37 +320,91 @@ Münch, F. V., Thies, B., Puschmann, C., & Bruns, A. (2021). Walking Through Twi
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-#### Important Centrality Measures
+### Important Centrality Measures
 
-##### (In/Out-)Degree Centrality
+<img src="Lecture_1_Fundamentals/Pasted image 20230322185009.png" alt="" style="width: 500px; object-fit: fill">
 
-##### Closeness Centrality
 
-##### Eigenvector Centrality
 
-##### Page Rank
-
-##### K-Coreness
-
-##### Betweenness-Centrality
+<small>CC-BY-SA [Pholme](https://commons.wikimedia.org/w/index.php?title=User:Pholme&action=edit&redlink=1 "User:Pholme (page does not exist)"), https://commons.wikimedia.org/wiki/File:Wp-01.png</small>
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-#### Local Clustering Coefficient
+### (In/Out-)Degree Centrality
+
+<img src="Lecture_1_Fundamentals/Pasted image 20230322182417.png" alt="" style="width: px; height: 900px; object-fit: fill">
+
+
+<small>CC-BY-SA [Melchoir](https://commons.wikimedia.org/wiki/User:Melchoir "User:Melchoir") (source); [pan BMP](https://commons.wikimedia.org/wiki/User:Pan_BMP "User:Pan BMP"), https://commons.wikimedia.org/wiki/File:UndirectedDegrees_(Loop).svg</small>
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-### Network Measures
+### Closeness Centrality
 
-#### Global Clustering Coefficient
+`$C(x) = \frac {N-1} {\sum_y{d(y,x)}}$`
+
+<img src="Lecture_1_Fundamentals/Pasted image 20230322182837.png" alt="" style="width: px; height: 600px; object-fit: fill">
+
+
+The red square node has (normalised) closeness centrality `$\frac {(6 - 1)} {1+1+1+2+2}$`
+
+<small>Image CC-BY-SA [CentralConcept](https://commons.wikimedia.org/w/index.php?title=User:CentralConcept&action=edit&redlink=1 "User:CentralConcept (page does not exist)"), https://commons.wikimedia.org/wiki/File:Pathdegreeclosenessexampleedit.svg</small>
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-#### Diameter
+### Eigenvector Centrality and Page Rank
+
+Both based on the so-called Eigenvalue/Eigenvector equation of the adjacency matrix. In non-math terms: **nodes who have many high ranking nodes as neighbours rank high**.
+
+<img src="Lecture_1_Fundamentals/Pasted image 20230322183945.png" alt="" style="width: px; height: 600px; object-fit: fill">
+
+<small>Simple Illustration of the PageRank Algorithm</small></br>
+<small>Image Public Domain, https://commons.wikimedia.org/wiki/File:PageRanks-Example.svg</small>
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-#### Density
+### Betweenness-Centrality
+
+`$g(v) = \displaystyle\sum_{s \not= v \not= t} {\frac {\sigma_{st}(v)}{\sigma_{st}}}$`
+
+<img src="Lecture_1_Fundamentals/Pasted image 20230322191324.png" alt="" style="object-fit: scale-down">
+
+
+The more shortest paths are going through a node, the higher its betweenness. The red and the green node have the highest, the blue nodes the lowest betweenness centrality
+
+<small>Image Source: McLaughlin, Adam & Bader, David. (2015). Scalable and High Performance Betweenness Centrality on the GPU. International Conference for High Performance Computing, Networking, Storage and Analysis, SC. 2015. 572-583. 10.1109/SC.2014.52. </small>
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Local Clustering Coefficient
+
+<split left="7" right="1" gap="4">
+
+
+</br></br></br></br></br></br>
+The number of realized edges divided by the number of possible edges between neighbouring nodes
+
+<img src="Lecture_1_Fundamentals/Pasted image 20230322193953.png" alt="" style="width: px; height: 800px; object-fit: fill">
+
+
+</split>
+
+<aside class="notes"><p>Image is public domain (<a href="https://commons.wikimedia.org/wiki/File:Clustering_coefficient_example.svg">https://commons.wikimedia.org/wiki/File:Clustering_coefficient_example.svg</a>)</p>
+</div></aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Important Global Network Measures
+
+
+**Global Clustering Coefficient** `$= \frac{\text{number of closed triplets}}{\text{number of all triplets}}$`
+
+**Diameter**: longest shortest path of the network
+
+**Density**:  `$= \frac{\text{number of links}}{\text{number of possible links}}$`
+
+**Average Shortest Path Length**
+
+**& Averages of most node measures (e.g., average degree, betweenness, closeness, …)**
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
@@ -371,6 +421,15 @@ Münch, F. V., Thies, B., Puschmann, C., & Bruns, A. (2021). Walking Through Twi
 </aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
+### Giant Component
+
+<img src="Lecture_1_Fundamentals/Pasted image 20230322200117.png" alt="" style="width: px; height: 900px; object-fit: fill">
+</div>
+
+<aside class="notes"><p>Image CC0, <a href="https://commons.wikimedia.org/wiki/File:Critical_1000-vertex_Erd%C5%91s%E2%80%93R%C3%A9nyi%E2%80%93Gilbert_graph.svg">https://commons.wikimedia.org/wiki/File:Critical_1000-vertex_Erd%C5%91s%E2%80%93R%C3%A9nyi%E2%80%93Gilbert_graph.svg</a></p>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
 ### Cliques
 
 <img src="Lecture_1_Fundamentals/Pasted image 20230321174955.png" alt="" style="width: px; height: 900px; object-fit: fill">
@@ -383,6 +442,9 @@ Münch, F. V., Thies, B., Puschmann, C., & Bruns, A. (2021). Walking Through Twi
 ### K-Cores
 
 <img src="Lecture_1_Fundamentals/Pasted image 20230322162554.png" alt="" style="width: px; height: 600px; object-fit: fill">
+
+
+(can also be used as a node centrality measure)
 </div>
 
 <aside class="notes"><p>The graph that remains after iteratively removing every node with less than <code>k</code> links.
