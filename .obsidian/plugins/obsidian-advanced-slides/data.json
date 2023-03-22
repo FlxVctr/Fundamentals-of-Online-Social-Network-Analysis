@@ -7,7 +7,7 @@
   "enableMenu": true,
   "enablePointer": false,
   "enableTimeBar": false,
-  "theme": "simple",
+  "theme": "",
   "highlightTheme": "zenburn",
   "transition": "convex",
   "transitionSpeed": "default",

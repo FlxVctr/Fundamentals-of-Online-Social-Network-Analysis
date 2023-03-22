@@ -34,14 +34,10 @@ What are your expectations for this day?
 # The Plan
 
 1. Online (Social) Media Network Fundamentals
-
 2. Network fundamentals
-
-3. [Pause]
-
-4. Data Mining Possibilities and Difficulties
-
-5. Network Analysis Methods
+3. *break*
+4. Network Analysis Methods
+5. Data Mining Possibilities and Difficulties
 
 Afterwards:
 
@@ -235,17 +231,44 @@ Münch, F. V., Thies, B., Puschmann, C., & Bruns, A. (2021). Walking Through Twi
 
 --
 
-#### Important Centrality Measures
+### Important Centrality Measures
 
-##### (In/Out-)Degree Centrality
+![[Pasted image 20230322185009.png|500]]
 
-##### Closeness Centrality
 
-##### Eigenvector Centrality
+<small>CC-BY-SA [Pholme](https://commons.wikimedia.org/w/index.php?title=User:Pholme&action=edit&redlink=1 "User:Pholme (page does not exist)"), https://commons.wikimedia.org/wiki/File:Wp-01.png</small>
 
-##### Page Rank
+--
 
-##### K-Coreness
+### (In/Out-)Degree Centrality
+
+![[Pasted image 20230322182417.png|x900]]
+
+<small>CC-BY-SA [Melchoir](https://commons.wikimedia.org/wiki/User:Melchoir "User:Melchoir") (source); [pan BMP](https://commons.wikimedia.org/wiki/User:Pan_BMP "User:Pan BMP"), https://commons.wikimedia.org/wiki/File:UndirectedDegrees_(Loop).svg</small>
+
+--
+
+### Closeness Centrality
+
+$$C(x) = \frac {N-1} {\sum_y{d(y,x)}}$$
+
+![[Pasted image 20230322182837.png|x600]]
+
+The red square node has (normalised) closeness centrality $\frac {(6 - 1)} {1+1+1+2+2}$
+
+<small>Image CC-BY-SA [CentralConcept](https://commons.wikimedia.org/w/index.php?title=User:CentralConcept&action=edit&redlink=1 "User:CentralConcept (page does not exist)"), https://commons.wikimedia.org/wiki/File:Pathdegreeclosenessexampleedit.svg</small>
+
+--
+
+### Eigenvector Centrality and Page Rank
+
+Both based on the so-called Eigenvalue/Eigenvector equation of the adjacency matrix. In non-math terms: **nodes who have many high ranking nodes as neighbours rank high**.
+
+![[Pasted image 20230322183945.png|x600]]
+<small>Simple Illustration of the PageRank Algorithm</small></br>
+<small>Image Public Domain, https://commons.wikimedia.org/wiki/File:PageRanks-Example.svg</small>
+
+--
 
 ##### Betweenness-Centrality
 
@@ -295,6 +318,8 @@ Image is Public Domain: https://en.wikipedia.org/wiki/Clique_(graph_theory)#/med
 ### K-Cores
 
 ![[Pasted image 20230322162554.png|x600]]
+
+(can also be used as a node centrality measure)
 
 note:
 The graph that remains after iteratively removing every node with less than `k` links.
