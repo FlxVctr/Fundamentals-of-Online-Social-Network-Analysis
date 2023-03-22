@@ -270,25 +270,47 @@ Both based on the so-called Eigenvalue/Eigenvector equation of the adjacency mat
 
 --
 
-##### Betweenness-Centrality
+### Betweenness-Centrality
+
+$$g(v) = \displaystyle\sum_{s \not= v \not= t} {\frac {\sigma_{st}(v)}{\sigma_{st}}}$$
+
+![[Pasted image 20230322191324.png]]
+
+The more shortest paths are going through a node, the higher its betweenness. The red and the green node have the highest, the blue nodes the lowest betweenness centrality
+
+<small>Image Source: McLaughlin, Adam & Bader, David. (2015). Scalable and High Performance Betweenness Centrality on the GPU. International Conference for High Performance Computing, Networking, Storage and Analysis, SC. 2015. 572-583. 10.1109/SC.2014.52. </small>
 
 --
 
-#### Local Clustering Coefficient
+### Local Clustering Coefficient
+
+<split left="7" right="1" gap="4">
+
+
+</br></br></br></br></br></br>
+The number of realized edges divided by the number of possible edges between neighbouring nodes
+
+![[Pasted image 20230322193953.png|x800]]
+
+</split>
+
+Note:
+Image is public domain (https://commons.wikimedia.org/wiki/File:Clustering_coefficient_example.svg)
 
 --
 
-### Network Measures
+### Important Global Network Measures
 
-#### Global Clustering Coefficient
 
---
+**Global Clustering Coefficient** $= \frac{\text{number of closed triplets}}{\text{number of all triplets}}$
 
-#### Diameter
+**Diameter**: longest shortest path of the network
 
---
+**Density**:  $= \frac{\text{number of links}}{\text{number of possible links}}$
 
-#### Density
+**Average Shortest Path Length**
+
+**& Averages of most node measures (e.g., average degree, betweenness, closeness, …)**
 
 --
 
@@ -303,6 +325,15 @@ Both based on the so-called Eigenvalue/Eigenvector equation of the adjacency mat
 
 note:
 Image Public domain https://en.wikipedia.org/wiki/Component_(graph_theory)#/media/File:Pseudoforest.svg
+
+--
+
+### Giant Component
+
+![[Pasted image 20230322200117.png|x900]]
+
+note:
+Image CC0, https://commons.wikimedia.org/wiki/File:Critical_1000-vertex_Erd%C5%91s%E2%80%93R%C3%A9nyi%E2%80%93Gilbert_graph.svg
 
 --
 
