@@ -227,7 +227,7 @@ Münch, F. V., Thies, B., Puschmann, C., & Bruns, A. (2021). Walking Through Twi
 
 --
 
-## Measurements of Networks and their Elements
+## Measurements of Networks/Graphs and their Elements
 
 --
 
@@ -294,9 +294,71 @@ Image is Public Domain: https://en.wikipedia.org/wiki/Clique_(graph_theory)#/med
 
 ### K-Cores
 
+![[Pasted image 20230322162554.png|x600]]
+
+note:
+The graph that remains after iteratively removing every node with less than `k` links.
+Image is CC0/public domain: https://en.wikipedia.org/wiki/Degeneracy_(graph_theory)#/media/File:2-degenerate_graph_2-core.svg
+
 --
 
 ### Communities/Clusters
+
+Depend on the detection algorithms used. Two of the most popular are
+
+* ***Modularity Maximisation (mostly in the Louvain implementation)*** based on the relative density of in-/out-group edges
+
+and
+
+* ***Map Equation (infomap)*** based on the lenght of stay of random walks in certain regions of the network (technically the minimization of the description length of its path)
+
+--
+
+#### Flat communities
+
+* simplify complex systems
+* easy to understand
+* can oversimplify
+* inherently have a resolution limit/arbitrary resolution
+
+--
+
+![[Pasted image 20230318193447.png|x900]]
+
+<small>Münch, F. V., Thies, B., Puschmann, C., & Bruns, A. (2021). Walking Through Twitter: Sampling a Language-Based Follow Network of Influential Twitter Accounts. _Social Media + Society_. [https://doi.org/10.1177/2056305120984475](https://doi.org/10.1177/2056305120984475)</small>
+
+--
+
+#### Hierarchical and Overlapping Communities
+
+* Possible, e.g. with infomap
+* often closer to reality
+* often easier to interpret
+* harder to analyse and visualise
+
+--
+
+![[Pasted image 20230322164728.png|x800]]
+
+https://www.mapequation.org/navigator/
+
+--
+
+![[Pasted image 20230322164946.png|x900]]
+
+<small>Münch, F. V. (2019). _Measuring the Networked Public – Exploring Network Science Methods for Large Scale Online Media Studies_ [PhD thesis, Queensland University of Technology]. [https://doi.org/10.5204/thesis.eprints.125543](https://doi.org/10.5204/thesis.eprints.125543)</small>
+
+--
+
+![[Pasted image 20230322165258.png|x900]]
+
+<small>Münch, F. V. (2019). _Measuring the Networked Public – Exploring Network Science Methods for Large Scale Online Media Studies_ [PhD thesis, Queensland University of Technology]. [https://doi.org/10.5204/thesis.eprints.125543](https://doi.org/10.5204/thesis.eprints.125543)</small>
+
+--
+
+![[Pasted image 20230322165658.png|x900]]
+
+<small>Münch, F. V. (2019). _Measuring the Networked Public – Exploring Network Science Methods for Large Scale Online Media Studies_ [PhD thesis, Queensland University of Technology]. [https://doi.org/10.5204/thesis.eprints.125543](https://doi.org/10.5204/thesis.eprints.125543)</small>
 
 ---
 
