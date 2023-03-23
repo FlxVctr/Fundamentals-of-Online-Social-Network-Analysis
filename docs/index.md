@@ -6,7 +6,13 @@ Course Materials (Presentation, Lecture Notes and Notebooks)
 
 Under construction
 
-# [Lecture 1: Fundamentals](https://flxvctr.github.io/Fundamentals-of-Online-Social-Network-Analysis/1_Fundamentals)
+# Lecture 1: Fundamentals
+
+[Presentation](https://flxvctr.github.io/Fundamentals-of-Online-Social-Network-Analysis/1_Fundamentals)
+
+[Slides as PDF](https://github.com/FlxVctr/Fundamentals-of-Online-Social-Network-Analysis/raw/main/Lecture_1_Fundamentals/print-pdf.pdf)
+
+[Slides as A4 Portrait PDF, e.g., for handwritten notes](https://github.com/FlxVctr/Fundamentals-of-Online-Social-Network-Analysis/raw/main/Lecture_1_Fundamentals/1_Fundamentals.pdf)
 
 # Practical 1
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FlxVctr/Fundamentals-of-Online-Social-Network-Analysis/HEAD)
