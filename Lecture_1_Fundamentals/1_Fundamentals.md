@@ -281,7 +281,7 @@ $$g(v) = \displaystyle\sum_{s \not= v \not= t} {\frac {\sigma_{st}(v)}{\sigma_{s
 
 ![[Pasted image 20230322191324.png]]
 
-The more shortest paths are going through a node, the higher its betweenness. The red and the green node have the highest, the blue nodes the lowest betweenness centrality
+The more shortest paths are going through a node, the higher its betweenness.
 
 <small>Image Source: McLaughlin, Adam & Bader, David. (2015). Scalable and High Performance Betweenness Centrality on the GPU. International Conference for High Performance Computing, Networking, Storage and Analysis, SC. 2015. 572-583. 10.1109/SC.2014.52. </small>
 
