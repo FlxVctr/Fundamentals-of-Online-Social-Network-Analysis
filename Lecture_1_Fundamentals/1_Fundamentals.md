@@ -10,9 +10,10 @@ mermaid:
 
 # 
 
-# Fundamentals of Online ((Social) Media) Network Analysis
+# Fundamentals of (Online ((Social) Media)) Network Analysis
 
-Lecture 1
+## Lecture 1
+Online Social Networks, Elements of Networks, Network Measures, Data Sources
 
 
 ---
@@ -424,8 +425,64 @@ https://www.mapequation.org/navigator/
 
 # Data Sources for (Online ((Social) Media)) Networks
 
-Repositories
+--
 
-APIs
+## Repositories
 
-Scraping
+e.g.:
+* Netzschleuder: https://networks.skewed.de/, 
+* SNAP datasets: https://snap.stanford.edu/data/index.html
+* Network Repository: https://networkrepository.com/
+* and many more
+
+--
+
+## Repositories
+
+Pro                              | Contra
+---------------------------------|-------------------------------------------
+Easy to access                   | Old data
+Fewer legal and ethical problems | Already studied, harder to find new topics
+Good for meta studies            | Need to trust the data collector
+Good for method testing          | Available info not tailored to your needs
+
+--
+
+## API
+
+Pro                                     | Contra
+----------------------------------------|-------------------------------------------
+New/live data                           | Often not historical data
+More control over what to collect       | Ethics and data protection considerations </br> apply
+Relatively stable machine readability   | Often vetting and acceptance </br>of Terms of Service (TOS)
+Legally quite safe                      | Rate limits and accessible data </br>shape research question
+Sometimes access to additional metadata | Can be deprecated/shut down
+
+--
+
+## Webscraping
+
+Pro                                     | Contra
+----------------------------------------|-------------------------------------------
+New/live data                           | Kind of unstable machine readability
+More control over what to collect       | More Ethics and data protection </br>considerations apply
+No vetting or acceptance of TOS         | Active countermeasures by platforms
+No rate limits                          | Technically often more complex setup
+In best case WYSIWYG                    | 
+
+
+--
+
+Also possible, but less common for large networks:
+
+* Surveys
+* Questionaires
+* Data Donations
+* "Manual" Collection
+* ...
+
+---
+
+# Questions?
+
+@flxvctr
