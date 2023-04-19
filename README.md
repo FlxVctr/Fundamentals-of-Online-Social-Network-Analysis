@@ -24,6 +24,8 @@ Under construction
 
 [Presentation](https://flxvctr.github.io/Fundamentals-of-Online-Social-Network-Analysis/2_Epistemology_Methodology)
 
+#### Acknowledgements
 
+Thanks to [Dr. Maris Männiste](https://scholar.google.com/citations?user=R_1OIlUAAAAJ&hl=en) and the [University of Tartu](https://ut.ee/en) for funding the development and hosting this course.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
