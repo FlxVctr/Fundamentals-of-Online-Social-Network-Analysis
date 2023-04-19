@@ -107,11 +107,11 @@ Well, this needs a whole lecture … this lecture
 
 <split even>
 
-![|x500](figures/Habermas.png)
+![[Habermas.png|x500]]]
 
-![|x500](figures/Bruns.png)
+![[Bruns.png|x500]]]
 
-![|x500](figures/McQuail.png)
+![[McQuail.png|x500]]
 
 </split>
 
@@ -126,35 +126,35 @@ McQuail: Development alongside media evolution: early mass media: unitary; multi
 
 --
 
-![](figures/startrek1.png)
+![[startrek1.png]]
 
 Note:
 Some might say, this is a bad thing
 
 --
 
-![](figures/startrek2.png)
+![[startrek2.png]]
 
 Note:
 because if people don't talk to each other anymore and don't have common ground to do so, this leads to unresolvable conflicts
 
 --
 
-![](figures/startrek3.png)
+![[startrek3.png]]
 
 Note:
 So, if this dystopian vision by McQuail might be true, we should do something about it, or at least find out whether he's right
 
 --
 
-![](figures/startrek4.png)
+![[startrek4.png]]
 
 Note:
 And this is the point where this snippet from the Original Star Trek Series from the 60s is still _literally_ science fiction: we would not have anything such as a 'sociological computer' …
 
 --
 
-![](figures/startrek5.png)
+![[startrek5.png]]
 
 Note:
 nor can we assume that any such thing might be able to solve a problem that is so human in its nature.
@@ -201,7 +201,7 @@ Networks:
 
 ## Network Science
 
-![](figures/Smith.png)
+![[Smith.png]]
 
 
 Note:
@@ -213,7 +213,7 @@ Note:
 
 ## Problem: Disciplinary Divides
 
-![](figures/divide.png)
+![[divide.png]]
 
 Problems in epistemology, methodology, teleology, education, and research training
 
@@ -228,7 +228,7 @@ identified in thesis: not only education and training, but more important: diffe
 
 ## Lack of a Common Understanding of Methodology and Common Goals
 
-![|1000](figures/project goal.png)
+![[project goal.png|x700]]
 
 Notes:
 - many social scientists/media and communication scholars are not used to complex method development for its own sake
@@ -288,14 +288,14 @@ Note:
 
 --
 
-![](figures/methodology_0.png)
+![[methodology_0.png]]
 
 Note:
 - reflection on patterns opens possibility to integrate practices from the whole spectrum of academic research, as made necessary by the computational turn and big data
 
 --
 
-![](figures/methodology_1.png)
+![[methodology_1.png]]
 
 Note:
 - if we recognise that one side of the spectrum tends to use more abductive reasoning, which is the formal way to refer to the hunches and guesses made in all disciplines to generate promising hypotheses
@@ -303,7 +303,7 @@ Note:
 
 --
 
-![](figures/methodology_2.png)
+![[methodology_2.png]]
 
 Note:
 - then patterns can be seen as a method/vocabulary
@@ -312,14 +312,14 @@ Note:
 
 --
 
-![fit inline](figures/methodology_3.png)
+![[methodology_3.png]]
 
 Note:
 - the deductive and inductive reasoning to catch up with the abductions is then done with more responsive (clinical aka qualitative) (better for exploration), or rule-based methods (formulaic aka quantitative) (better for replication for example), again with a preference depending on where in the spectrum a researcher is
 
 --
 
-![fit inline](figures/research cycle.png)
+![[research cycle.png]]
 
 Note:
 In the end every academic practice is a cycle of abductive reasoning with patterns and inductive/deductive reasoning with more rule-based or responsive methods
@@ -372,7 +372,7 @@ leading goal: better understand notions of virality from a network perspective
 
 ### Structural Virality (Avg. Shortest Path Length)
 
-![|x800](figures/structural property.png)
+![[structural property.png|x700]]
 
 <sub>after Goel et al. (2015)</sub>
 
@@ -392,11 +392,11 @@ Note:
 
 <split even>
 
-![|x500](figures/illride.png)
+![[illride.png|x500]]
 
-![|x500](figures/siege.png)
+![[siege.png|x500]]
 
-![|x500](figures/brexit.png)
+![[brexit.png|x500]]
 
 </split>
 
@@ -418,11 +418,11 @@ from collected data:
 
 <split even>
 
-![|x400](figures/ride 1.png)
+![[ride 1.png|x400]]
 
-![|x400](figures/siege 2.png)
+![[siege 2.png|x400]]
 
-![|x400](figures/brexit 2.png)
+![[brexit 2.png|x400]]
 
 </split>
 
@@ -430,11 +430,12 @@ Note:
 - again confirmation of intuition
 - structural virality the highest for illridewithyou, the lowest for petition
 
+<!--
 --
 
 ### Influence Network
 
-![inline fit](figures/ride 2.png)![fit](figures/siege 3.png)![fit](figures/brexit 3.png)
+![inline fit](figures/ride 2.png|x500]]![fit](figures/siege 3.png|x500]]![fit](figures/brexit 3.png|x500]]
 
 
 ^
@@ -446,7 +447,7 @@ Note:
 
 ### Complexity of Contagion/Exposures per Friend (Followee)
 
-![inline](figures/exposures_per_friend_illridewithyou.png)![](figures/exposures_per_friend_sydneysiege.png)![](figures/brexit_exp.png)
+![inline](figures/exposures_per_friend_illridewithyou.png|x500]]![[exposures_per_friend_sydneysiege.png|x500]]![[brexit_exp.png|x500]]
 
 ^
 - the graphs show how the number of infections increases with the exposures to the respective item per friend
@@ -523,9 +524,9 @@ mapping the Australian Twittersphere (follow-network) based on results from 2 di
 
 ---
 
-![inline fit original](figures/bruns_map.png)
+![inline fit original](figures/bruns_map.png|x500]]
 
-![right fit original](figures/new result.png)
+![right fit original](figures/new result.png|x500]]
 
 <sub>__left (Bruns et al., 2017):__ Australian follow network filtered for __accounts with over 1000 followees + followers__. Labels based on **close reading of profile descriptions**</sub>
 
@@ -555,7 +556,7 @@ mapping the Australian Twittersphere (follow-network) based on results from 2 di
 
 ---
 
-![fit](figures/auspol.png)![fit](figures/hard-right.png)
+![fit](figures/auspol.png|x500]]![fit](figures/hard-right.png|x500]]
 
 ^
 - left side of each figure: most distinct 60 keywords and the fraction of accounts having used them in the community core in focus
@@ -563,7 +564,7 @@ mapping the Australian Twittersphere (follow-network) based on results from 2 di
 
 ---
 
-![fit](figures/keywords_auspol.pdf)![fit](figures/hard-right.png)
+![fit](figures/keywords_auspol.pdf)![fit](figures/hard-right.png|x500]]
 
 ^
 - left side Australian politics, as easy to see by the keywords extracted
@@ -578,7 +579,7 @@ mapping the Australian Twittersphere (follow-network) based on results from 2 di
 
 ---
 
-![fit](figures/auspol_labelled.png)![fit](figures/hard-right_labelled.png)
+![fit](figures/auspol_labelled.png|x500]]![fit](figures/hard-right_labelled.png|x500]]
 
 ^
 - clearly visible: one-way relationship regarding topical keywords
@@ -596,7 +597,7 @@ mapping the Australian Twittersphere (follow-network) based on results from 2 di
 
 ---
 
-![fit](figures/adj_PLM.png)
+![fit](figures/adj_PLM.png|x500]]
 
 ^
 - shows how strongly connected communities are, the lighter the better
@@ -634,7 +635,7 @@ mapping the Australian Twittersphere (follow-network) based on results from 2 di
 
 #### Nested Stochastic Block Model (SBM) Inference
 
-![right fit](figures/SBM.png)
+![right fit](figures/SBM.png|x500]]
 
 * SBM inference does not look for specific patterns (+-)
 * grouping nodes with similar 'roles', i.e. connection patterns (e.g., periphery, centre, bridge, echo chamber) (+)
@@ -653,7 +654,7 @@ mapping the Australian Twittersphere (follow-network) based on results from 2 di
 
 ---
 
-![fit](figures/globe.png)![fit](figures/adj matrix.png)
+![fit](figures/globe.png|x500]]![fit](figures/adj matrix.png|x500]]
 
 ^
 - filtered network > 1000, follow network, hierarchical network visualisation
@@ -674,28 +675,28 @@ mapping the Australian Twittersphere (follow-network) based on results from 2 di
 
 ---
 
-![inline](figures/treemap_4.png)![](figures/medium level.png)![](figures/treemap_2.png)
+![inline](figures/treemap_4.png|x500]]![[medium level.png|x500]]![[treemap_2.png|x500]]
 
-![inline](figures/treemap_1.png)![](figures/treemap_0.png)
+![inline](figures/treemap_1.png|x500]]![[treemap_0.png|x500]]
 
 ^to provide a more and more detailed view on the topics discussed in the Australian Twittersphere during the analysed timeframe the lower the level
 
 ---
 
-![fit](figures/treemap_4.png)
+![fit](figures/treemap_4.png|x500]]
 
 ^size of blocks represents active accounts, keywords used by at least 5% of active accounts in block 
 see divide periphery, centre, dominance of auspol
 
 ---
 
-![fit](figures/medium level.png)
+![fit](figures/medium level.png|x500]]
 
 ^teenage cluster, politics, sports
 
 ---
 
-![fit](figures/treemap_2.png)![fit](figures/treemap_1.png)
+![fit](figures/treemap_2.png|x500]]![fit](figures/treemap_1.png|x500]]
 
 ^Treemaps:
 - even more detail on level 2
@@ -705,7 +706,7 @@ see divide periphery, centre, dominance of auspol
 
 ---
 
-![fit](figures/sports lowest level.png)
+![fit](figures/sports lowest level.png|x500]]
 
 ^
 - most detailed level, zoomed in on sports
@@ -719,7 +720,7 @@ see divide periphery, centre, dominance of auspol
 
 ---
 
-![fit](figures/Bruns 1.png)![fit](figures/level 3.png)![fit](figures/net_level_2.png)
+![fit](figures/Bruns 1.png|x500]]![fit](figures/level 3.png|x500]]![fit](figures/net_level_2.png|x500]]
 
 ^
 besides the Epistemological implications discussed before:
@@ -733,7 +734,7 @@ besides the Epistemological implications discussed before:
 
 # 7. Discussion
 
-![left fit](figures/research cycle.png)
+![left fit](figures/research cycle.png|x500]]
 
 ^let's reflect a bit on what happened after having gone sucessfully through the cycle 2 times
 
@@ -827,17 +828,17 @@ Practical steps (variations possible):
 
 ---
 
-![fit](figures/startrek3.png)
+![fit](figures/startrek3.png|x500]]
 
 ---
 
 # [fit] Thanks!
 
-![inline 100%](figures/vulcan.png)
+![inline 100%](figures/vulcan.png|x500]]
 
 ### Twitter: @flxvctr
 
-
+-->
 ---
 
 # References
