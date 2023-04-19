@@ -1,5 +1,5 @@
 ---
-transition: slide
+transition: none
 width: 1920
 height: 1080
 theme: solarized
@@ -11,6 +11,7 @@ mermaid:
 # Fundamentals of (Online ((Social) Media)) Network Analysis
 
 ## Lecture 2
+
 Epistemological/methodological challenges of network science in computational social science, representativity problems, network science as a way to handle organised complexity, research examples
 
 
@@ -36,7 +37,7 @@ Practical for students from last time
 
 ---
 
-# 1. Network Science and the Computational Social Sciences
+# 1. Computational Social Sciences
 
 --
 
@@ -71,7 +72,7 @@ Social Sciences by computational means, thereby
 * Mathematics
 * ...
 
----
+--
 
 ## What is Computational Social Science?
 
@@ -98,9 +99,9 @@ Well, this needs a whole lecture … this lecture
 
 ---
 
-# 2. The Networked Public Sphere
+# 2. Today's example: The Networked Public Sphere
 
----
+--
 
 ## The Public Sphere
 
@@ -123,75 +124,71 @@ Bruns: networked public sphere, mainstream 'mountain': large audience, low engag
 
 McQuail: Development alongside media evolution: early mass media: unitary; multi-channel-media: pluralism; today: core-periphery model, diverse, but still connected; future: total disconnect; breakup-model 
 
----
+--
 
 ![](figures/startrek1.png)
 
 Note:
 Some might say, this is a bad thing
 
----
+--
 
 ![](figures/startrek2.png)
 
 Note:
 because if people don't talk to each other anymore and don't have common ground to do so, this leads to unresolvable conflicts
 
----
+--
 
 ![](figures/startrek3.png)
 
 Note:
 So, if this dystopian vision by McQuail might be true, we should do something about it, or at least find out whether he's right
 
----
+--
 
 ![](figures/startrek4.png)
 
 Note:
 And this is the point where this snippet from the Original Star Trek Series from the 60s is still _literally_ science fiction: we would not have anything such as a 'sociological computer' …
 
----
+--
 
 ![](figures/startrek5.png)
 
 Note:
 nor can we assume that any such thing might be able to solve a problem that is so human in its nature.
+However, if such a thing should ever exist, I'm sure it would make use of network science. I hope I can convince you with this talk, and perhaps with my thesis, that it will become, or should become, one of the most important auxiliary disciplines of media and communication studies, comparable to statistics.
 
 ---
 
-![100%](figures/thinking-face.png)
+# 3. Organised Complexity and Network Science
 
-^However, if such a thing should ever exist, I'm sure it would make use of network science. I hope I can convince you with this talk, and perhaps with my thesis, that it will become, or should become, one of the most important auxiliary disciplines of media and communication studies, comparable to statistics.
-
----
-
-# 2. Organised Complexity and Network Science
-
-^
+Note:
 * Full overview not possible here
 * thesis more comprehensive
 * just try to make clear why it is so suited to these kind of problems
 
----
+--
 
 ## Organised Complexity
 
 Three eras in the history of science (Warren Weaver, 1948):
 
-* simplicity: two variables -> simple calculus
-* disorganised complexity: averages, distributions -> statistics
+* simplicity: two variables (e.g., length and force of a leaver) -> simple calculus
+* disorganised complexity: averages, distributions (e.g., audience size and ratings) -> statistics
 * organised complexity:
 
 	> _This was a new science focused on problems where the identity of the elements involved in a system, and their patterns of interactions, could no longer be ignored. … a new math needed to emerge. (Hidalgo, 2016, p. 2)_
 
-^
+=> __Network Science__, Agent Based Modeling, Machine Learning, …
+
+Note:
 - simplicity: e.g. length of and force applied to a leaver
 - disorganised complexity: audience size and ratings of a broadcast TV show
 - from slide
-- _I think the next century will be the century of complexity._ (Stephen Hawking)
 
----
+--
 
 ## Network Science
 
@@ -200,85 +197,77 @@ Networks:
 * “mathematical objects that help us keep track of the identity of the elements involved in a system and their patterns of interaction”
 * “ideal structures to describe problems of organized complexity” (Hidalgo, 2016, p. 2)
 
----
+--
 
 ## Network Science
 
-![inline fit](figures/Smith.png)
+![](figures/Smith.png)
 
 
-^
+Note:
 - possible, e.g., categorisation of smaller-scale communication patterns, and quantitative ways to measure these
 - e.g. polarised crowd, broadcast networks
 * allows to look at group or even society-wide patterns, while preserving complex properties of individuals
 
----
+--
 
-## Problem: Disciplinary Divide
+## Problem: Disciplinary Divides
 
-![inline](figures/divide.pdf)
+![](figures/divide.png)
 
 Problems in epistemology, methodology, teleology, education, and research training
 
-^identified in thesis: not only education and training, but more important: differences in understanding of 'what you can know', 'how knowledge is gained', 'for what purpose we gain knowledge and why things happen'
+Note:
+identified in thesis: not only education and training, but more important: differences in understanding of 'what you can know', 'how knowledge is gained', 'for what purpose we gain knowledge and why things happen'
 
 ---
 
-# 3. Project Goal and Research Questions
+# 4. Challenges in Network Science for Computational Communication Sciences
 
----
+--
 
-## Project Goals
+## Lack of a Common Understanding of Methodology and Common Goals
 
-![inline  fit](figures/project goal.pdf)
+![|1000](figures/project goal.png)
 
-^project's goals:
-- improve ability of researchers from network science-related disciplines & media and communication studies to integrate each others work,
+Notes:
+- many social scientists/media and communication scholars are not used to complex method development for its own sake
+- we need to improve ability of researchers from network science-related disciplines & media and communication studies to integrate each others work,
 - dealing with big data on public communication.
-- needs methodological framework -> major outcome of this work
-- goals were also: exploration and development methods, to gather new empirical findings about public communication in a networked public sphere, and to scout new research opportunities and questions
+- needs methodological framework
 
----
+--
 
-## Research Question 1/3: How to Translate Theory?
+## Challenge 1/3: How to Translate Theory?
 
 How can we interpret established concepts and theories regarding public communication from the social sciences and media and communication studies as theories about the structural dynamics of networks?
 
-^guided by three research questions
+--
 
----
-
-## Research Question 2/3: How to Apply Network Science?
+## Challenge 2/3: How to Apply Network Science?
 
 How can we apply network science methods to analyse the structural dynamics of networks in online public communication on a scale of whole societies from a perspective that tries to build upon, reject, or extend traditional media and communication studies theory?
 
----
+--
 
-## Research Question 3/3: But Why?
+## Challenge 3/3: But Why?
 
 Can this analysis be validated by its utility in confirming established theories or by leading to new theories about online public communication and the public sphere?
 
 ---
 
+# 5. A possible Methodological Framework
 
-# [fit] Let's do this
-
-^10 minutes
-
----
-
-# 4. Methodological Framework
-
-^
+Note:
 * underestimated its importance first
 * first project started to make me question others, then my understanding of research, then my identity as a researcher/scientist
 * actually developed alongside the studies and only started to make sense in the end
 * became major outcome of this Project
 * I see it as a fundamental necessity for the sustainable integration of network science into media and communication studies
 
----
+--
 
-## Methodological Framework
+## A Possible Methodological Framework
 
 
 Synthesising ideas by
@@ -290,49 +279,50 @@ Synthesising ideas by
 * Dixon (2012) on an epistemology of patterns;
 
 
-^
+Note:
 - Berry: computational methods became fundamental to concepts in the humanities
 - Halavais: big data has potential to connect grand theory with everyday individual behaviour, allows to investigate influence of outliers, which are often driving change
 - makes false dichotomy between qual and quant (as discussed by Sechrest & Sidani) more obvious
 - and also the need for pragmatism, to disentangle epistemology from methodology
 - furthermore, especially for network science: epistemology of patterns, patterns are not the result but a means, a method, vocabulary
 
----
+--
 
-![fit inline](figures/methodology_0.pdf)
+![](figures/methodology_0.png)
 
-^
+Note:
 - reflection on patterns opens possibility to integrate practices from the whole spectrum of academic research, as made necessary by the computational turn and big data
 
----
+--
 
-![fit inline](figures/methodology_1.pdf)
+![](figures/methodology_1.png)
 
-^
+Note:
 - if we recognise that one side of the spectrum tends to use more abductive reasoning, which is the formal way to refer to the hunches and guesses made in all disciplines to generate promising hypotheses
 - and the other side lays a stronger focus on deduction/induction to catch up with shorter, what I call 'jumps over abductive gap'
 
----
+--
 
-![fit inline](figures/methodology_2.pdf)
+![](figures/methodology_2.png)
 
-^
+Note:
 - then patterns can be seen as a method/vocabulary
-- heuristic for promising hypotheses based on human ability to spot them
+- heuristic for promising hypotheses based on human/machine learnings ability to spot them
 - difference between disciplines lies in generalisability and timeliness that they aim for (explain)
 
----
+--
 
-![fit inline](figures/methodology_3.pdf)
+![fit inline](figures/methodology_3.png)
 
-^
+Note:
 - the deductive and inductive reasoning to catch up with the abductions is then done with more responsive (clinical aka qualitative) (better for exploration), or rule-based methods (formulaic aka quantitative) (better for replication for example), again with a preference depending on where in the spectrum a researcher is
 
---- 
+--
 
 ![fit inline](figures/research cycle.png)
 
-^In the end every academic practice is a cycle of abductive reasoning with patterns and inductive/deductive reasoning with more rule-based or responsive methods
+Note:
+In the end every academic practice is a cycle of abductive reasoning with patterns and inductive/deductive reasoning with more rule-based or responsive methods
 In case of combining network science methods & media studies for this project:
 - start with hypotheses
 - find rule-based methods to test hypotheses
@@ -342,12 +332,12 @@ provides us, in a pragmatic worldview, with a scope to validate our methods by t
 
 ---
 
-# 5. Study 1: Measuring Communication Cascades
+# 5. Example 1: Measuring Communication Cascades
 
-^
+Note:
 - went through cycle two times: acute events (information diffusion, virality), national public sphere (communities, audiences, publics)
 
----
+--
 
 
 ## Cases
@@ -358,13 +348,13 @@ Three media items disseminated on Twitter, related to acute events:
 * #illridewithyou – perceived as most 'viral'
 * link to a petition to repeat the Brexit referendum – interesting for comparison
 
-^
+Note:
 - sydneysiege: terrorist attack sydney end of 2014, most popular hashtags
 - illridewithyou: lead to islamophobic reactions, counterreaction as a hashtag offering support in public transport
 - link to petition: petition website went down after result of Brexit referendum was announced
 For all: shares on Twitter, and following networks by first 10,000 participating accounts collected
 
----
+--
 
 ## What is virality (aka contagion)?
 
@@ -374,37 +364,46 @@ Three perspectives:
 * virality of the structure of a diffusion tree
 * qualitative differences: simple (one exposure) vs. complex (threshold models) contagion
 
-
-^leading goal: better understand notions of virality from a network perspective
+Note:
+leading goal: better understand notions of virality from a network perspective
 - three selected
 
----
+--
 
 ### Structural Virality (Avg. Shortest Path Length)
 
-![inline fit](figures/structural property.png)
+![|x800](figures/structural property.png)
 
 <sub>after Goel et al. (2015)</sub>
 
-^
+Note:
 - Goel et al.: proposal structural virality measure: avg short. path length
 - intuitively makes sense
 - left: broadcast: avg. 2
 - right: more 'viral': avg. higher than two
 
----
+--
 
 ## Selected Results
 
----
+--
 
 ### Connected Components
 
-![inline](figures/illride.png)![](figures/siege.png)![](figures/brexit.png)
+<split even>
+
+![|x500](figures/illride.png)
+
+![|x500](figures/siege.png)
+
+![|x500](figures/brexit.png)
+
+</split>
 
 <sub>Diffusion trees reconstructed from __first 10,000 participating accounts__ in each case.</sub>
 
-^from collected data:
+Note:
+from collected data:
 - reconstructed diffusion network
 - based on assumption that the last exposure triggered the reshare
 - colour by connected component (meaning nodes being reachable from each other via the links have same colour)
@@ -413,17 +412,25 @@ Three perspectives:
 - equivalent to number of entry points -> more viral, more 'organic growth', less viral, more 'outside influence'
 - in Brexit case explainable by the fact that a lot of shares might be simply triggered by a tweet button on the petition website
 
----
+--
 
 ### Structural Virality (Avg. Shortest Path Length)
 
-![inline](figures/ride 1.png)![](figures/siege 2.png)![](figures/brexit 2.png)
+<split even>
 
-^
+![|x400](figures/ride 1.png)
+
+![|x400](figures/siege 2.png)
+
+![|x400](figures/brexit 2.png)
+
+</split>
+
+Note:
 - again confirmation of intuition
 - structural virality the highest for illridewithyou, the lowest for petition
 
----
+--
 
 ### Influence Network
 
