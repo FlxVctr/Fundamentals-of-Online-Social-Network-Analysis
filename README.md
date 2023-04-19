@@ -6,7 +6,7 @@ Course Materials (Presentation, Lecture Notes and Notebooks)
 
 Under construction
 
-# Lecture 1: Online Social Networks, Elements of Networks, Network Measures, Data Sources
+# LECTURE 1: Online Social Networks, Elements of Networks, Network Measures, Data Sources
 
 [Presentation](https://flxvctr.github.io/Fundamentals-of-Online-Social-Network-Analysis/1_Fundamentals)
 
@@ -14,13 +14,13 @@ Under construction
 
 [Slides as A4 Portrait PDF, e.g., for handwritten notes](https://github.com/FlxVctr/Fundamentals-of-Online-Social-Network-Analysis/raw/main/Lecture_1_Fundamentals/1_Fundamentals.pdf)
 
-# Practical 1: Getting and Exploring Data with Minet and Python Pandas
+# PRACTICAL 1: Getting and Exploring Data with Minet and Python Pandas
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FlxVctr/Fundamentals-of-Online-Social-Network-Analysis/HEAD)
 
 (Click to start a Jupyter Lab for the exercises)
 
 
-# Lecture 2: Epistemological/Methodological Implications for the Social Sciences
+# LECTURE 2: Epistemological/Methodological Implications for the Social Sciences
 
 [Presentation](https://flxvctr.github.io/Fundamentals-of-Online-Social-Network-Analysis/2_Epistemology_Methodology)
 
