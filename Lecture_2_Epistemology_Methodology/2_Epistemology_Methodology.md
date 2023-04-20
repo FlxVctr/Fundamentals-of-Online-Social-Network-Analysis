@@ -12,7 +12,7 @@ mermaid:
 
 ## Lecture 2
 
-Epistemological/methodological challenges of network science in computational social science, representativity problems, network science as a way to handle organised complexity, research examples
+Epistemological/methodological challenges of network science in computational social science, network science as a way to handle organised complexity, research examples
 
 
 --
@@ -892,14 +892,6 @@ Practical steps (variations possible):
 
 ---
 
-# Thanks!
-
-## 🖖
-
-### Twitter/Mastodon: @flxvctr(@mas.to)
-
----
-
 # References / Further Reading
 
 --
@@ -936,3 +928,14 @@ Peixoto, T. P. (2017). The graph-tool python library. http://doi.org/10.6084/M9.
 Sechrest, L., & Sidani, S. (1995). Quantitative and qualitative methods: Is There an Alternative? Evaluation and Program Planning, 18(1), 77–87. http://doi.org/10.1016/0149-7189(94)00051-X
 
 Weaver, W. (1948). Science and complexity. American Scientist, 36(4), 536–544. Retrieved from http://www.jstor.org/stable/27826254
+
+---
+
+# Thanks!
+
+## 🖖
+
+### Twitter/Mastodon: @flxvctr(@mas.to)
+
+---
+
