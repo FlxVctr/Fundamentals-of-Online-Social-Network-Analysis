@@ -5,3 +5,5 @@ leo_tweets.csv
 Lab_2_Networking_Data/hashtags.csv
 .gitignore
 Lab_2_Networking_Data/mentions.csv
+hashtags.gephi
+mentions.gephi
