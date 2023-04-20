@@ -6,7 +6,7 @@
 
     <title></title>
     <link rel="stylesheet" href="dist/reveal.css" />
-    <link rel="stylesheet" href="dist/theme/solarized.css" id="theme" />
+    <link rel="stylesheet" href="dist/theme/white.css" id="theme" />
     <link rel="stylesheet" href="plugin/highlight/zenburn.css" />
 	<link rel="stylesheet" href="css/layout.css" />
 	<link rel="stylesheet" href="plugin/customcontrols/style.css">
@@ -85,7 +85,7 @@
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+      <div class="slides"><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 # Fundamentals of (Online ((Social) Media)) Network Analysis
@@ -93,27 +93,34 @@
 ## Lecture 2
 
 Epistemological/methodological challenges of network science in computational social science, representativity problems, network science as a way to handle organised complexity, research examples
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 # Who is this guy?
 
 Dr. Felix Victor Münch
 
-Leibniz-Institute for Media Research | Hans-Bredow-Institut
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+Media Research Methods Lab & Social Media Observatory of the Research Institute Social Cohesion 
+
+@ Leibniz-Institute for Media Research | Hans-Bredow-Institut
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 # The Plan
 
-1.
-2.
-3.
+1. Computational Social Science
+2. Today's Example: The Networked Public Sphere
+3. Organised Complexity and Network Science
+4. Challenges in Network Science for Computational Communication Science
+5. A Possible Methodological Framework
+6. Example 1: Measuring Virality of Communication
+7. Example 2: Mapping a Public Sphere
+8. What is it good for?
 
 Afterwards:
 
 Practical for students from last time
-</div></script></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+</div></script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 # 1. Computational Social Sciences
@@ -128,7 +135,7 @@ Physics B.Sc. -> Journalism M.A. -> Online Brand Communication Agency
 
 -> PhD @ Queensland University of Technology, Digital Media Research Centre
 
-# 🤷‍♂️
+## 🤷‍♂️
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
@@ -218,10 +225,11 @@ Well, this needs a whole lecture … this lecture
 <aside class="notes"><p>because if people don&#39;t talk to each other anymore and don&#39;t have common ground to do so, this leads to unresolvable conflicts</p>
 </div></aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+<!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 <img src="Lecture_2_Epistemology_Methodology/startrek3.png" alt="" style="object-fit: scale-down">
-
-
+</div>
 <aside class="notes"><p>So, if this dystopian vision by McQuail might be true, we should do something about it, or at least find out whether he&#39;s right</p>
 </div></aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
@@ -430,7 +438,7 @@ provides us, in a pragmatic worldview, with a scope to validate our methods by t
 </aside></script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-# 5. Example 1: Measuring Communication Cascades
+# 6. Example 1: Measuring Communication Cascades
 
 <aside class="notes"><ul>
 <li>went through cycle two times: acute events (information diffusion, virality), national public sphere (communities, audiences, publics)</div></li>
@@ -507,14 +515,12 @@ Three perspectives:
 
 <sub>Diffusion trees reconstructed from **first 10,000 participating accounts** in each case.</sub>
 
-<aside class="notes"><p>from collected data:</p>
-<ul>
-<li>reconstructed diffusion network</li>
-<li>based on assumption that the last exposure triggered the reshare</li>
-<li>colour by connected component (meaning nodes being reachable from each other via the links have same colour)</li>
-<li>decreasing dominance of largest components</li>
-<li>increasing number of components</li>
-<li>equivalent to number of entry points -&gt; more viral, more &#39;organic growth&#39;, less viral, more &#39;outside influence&#39;</li>
+- reconstructed diffusion network, based on assumption that the last exposure triggered the reshare
+- colour by connected component
+- decreasing dominance of largest components
+- increasing number of components, equivalent to number of entry points -> more viral, more 'organic growth', less viral, more 'outside influence'
+
+<aside class="notes"><ul>
 <li>in Brexit case explainable by the fact that a lot of shares might be simply triggered by a tweet button on the petition website</div></li>
 </ul>
 </aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
@@ -537,37 +543,61 @@ Three perspectives:
 
 <aside class="notes"><ul>
 <li>again confirmation of intuition</li>
-<li>structural virality the highest for illridewithyou, the lowest for petition</li>
+<li>structural virality the highest for illridewithyou, the lowest for petition</div></li>
 </ul>
-<!--
-</div></aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 ### Influence Network
 
-![inline fit](figures/ride 2.png|x500]]![fit](figures/siege 3.png|x500]]![fit](figures/brexit 3.png|x500]]
+<split even >
+
+<img src="Lecture_2_Epistemology_Methodology/ride 2.png" alt="" style="width: px; height: 500px; object-fit: fill">
+
+<img src="Lecture_2_Epistemology_Methodology/siege 3.png" alt="" style="width: px; height: 500px; object-fit: fill">
+
+<img src="Lecture_2_Epistemology_Methodology/brexit 3.png" alt="" style="width: px; height: 500px; object-fit: fill">
 
 
-^
-- influence network constructed in a way that if I followed another account + this account posted item before I did = connection
-- gives up assumption of single exposure -> enables to analyse possible complex contagion
-- hashtags both more clustered: more dense underlying community structure in form of follow connections
-</div></script></section></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+
+</split>
+
+- if I followed another account + this account posted item before I did -> connection
+- gives up assumption of single exposure -> enables to analyse possible **complex contagion**
+- observation: hashtags both more clustered -> denser underlying community structure in form of follows
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 ### Complexity of Contagion/Exposures per Friend (Followee)
 
-<img src="exposures_per_friend_sydneysiege.png" alt="" style="width: px; height: 500px; object-fit: fill">
-<img src="brexit_exp.png" alt="" style="width: px; height: 500px; object-fit: fill">
+<split even>
+
+<img src="Lecture_2_Epistemology_Methodology/exposures_per_friend_illridewithyou.png" alt="" style="width: px; height: 400px; object-fit: fill">
+
+<img src="Lecture_2_Epistemology_Methodology/exposures_per_friend_sydneysiege.png" alt="" style="width: px; height: 400px; object-fit: fill">
+
+<img src="Lecture_2_Epistemology_Methodology/brexit_exp.png" alt="" style="width: px; height: 400px; object-fit: fill">
 
 
-^
-- the graphs show how the number of infections increases with the exposures to the respective item per friend
+
+</split>
+
+
+- the number of infections increases with the exposures to the respective item per friend
 - could be understood as some form of 'peer pressure'
 - average highest for illridewithyou (5 exposures per 100 friends)
 - middle sydneysiege (3 exposures per 100 friends)
 - far below for link (6 per 1000 friends)
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Complexity of Contagion/Exposures per Friend (Followee)
+
+<img src="Lecture_2_Epistemology_Methodology/exposures per friend.png" alt="" style="width: 1000px; object-fit: fill">
+
+
+Limitation: the effect is hard to separate from the 'organic grown' nature of #illridewithyou
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 ### Summary of Results
@@ -581,82 +611,79 @@ Three perspectives:
 | **'virality'**           | **high**        | **medium**   | **low**  |
 | **complexity of contagion**  | +++             | ++           | +        |
 
-<sub>\*see thesis</sub>
+<sub>\*see Münch (2019)</sub>
 
-^
-- summary: all results point to higher virality
-- except: higher complexity for illridewithyou appears counterintuitive first
-- in fact:  underlines together with clustering importance of underlying structures of attention
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<aside class="notes"><ul>
+<li>summary: all results point to higher virality</li>
+<li>except: higher complexity for illridewithyou appears counterintuitive first</li>
+<li>in fact:  underlines together with clustering importance of underlying structures of attention</div></li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 ## Application to Theory (example): Gatekeeping
 
-^(besides clarifiying concepts of virality) closes circle to theory by providing base for thoughts on an extension of concept of gatekeeping
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<aside class="notes"><p>(besides clarifiying concepts of virality) closes circle to theory by providing base for thoughts on an extension of concept of gatekeeping</p>
+</div></aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-<img src="figures/distributed_gatekeeping.pdf" alt="fit" style="object-fit: scale-down">
+<img src="Lecture_2_Epistemology_Methodology/distributed_gatekeeping.png" alt="" style="width: px; height: 800px; object-fit: fill">
 
 
-^
-- based on this and literature, propose a concept of distributed gatekeeping in networks, based on limited attention space
-- very limited example here, but good to get the idea, links symbolise long-term attention
-- let's say general average threshold of 2 to reshare an item
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+
+- concept of distributed gatekeeping in networks, based on limited attention space
+- assumption for example: general average threshold of 2 to reshare an item
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-<img src="figures/distributed_gatekeeping_1.pdf" alt="fit" style="object-fit: scale-down">
+<img src="Lecture_2_Epistemology_Methodology/distributed_gatekeeping_1.png" alt="" style="width: px; height: 800px; object-fit: fill">
 
 
-^
-- this node, acts as a quasi-gatekeeper gets the message through to the target
-- important observation: based on properties of node (lower threshold), but also on position in the network (node on the far right would not have had success)
-- we can see that underlying, long-term network structure is important at small scales
-- also possible to see the nodes as groups of nodes -> leads us to consider large-scale communication structures, thereby to next study
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+
+One node acts as a quasi-gatekeeper to get the message through to the target, based on properties of the node (lower threshold), but also on position in the network (node on the far right would not succeed)
+
+<aside class="notes"><ul>
+<li>we can see that underlying, long-term network structure is important at small scales</li>
+<li>also possible to see the nodes as groups of nodes -&gt; leads us to consider large-scale communication structures, thereby to next study</div></li>
+</ul>
+</aside></script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-# 6. Study 2: Mappings of a Public Sphere
-
-minutes
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-## 4 kinds of maps from 2 perspectives
-
-* force directed network maps
-* keyword mappings
-* adjacency maps
-* treemaps
-
-mapping the Australian Twittersphere (follow-network) based on results from 2 different community detection approaches
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+# 7. Example 2: Mappings of a Public Sphere
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 ## Part 1: The Quasi-Standard – Communities Based on Inner Density (Modularity Maximisation)
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-![inline fit original](figures/bruns_map.png|x500]]
+<split even >
 
-![right fit original](figures/new result.png|x500]]
+<img src="Lecture_2_Epistemology_Methodology/bruns_map.png" alt="" style="width: px; height: 800px; object-fit: fill">
+
+
+<img src="Lecture_2_Epistemology_Methodology/new result.png" alt="" style="width: px; height: 800px; object-fit: fill">
+
+
+
+</split>
 
 <sub>**left (Bruns et al., 2017):** Australian follow network filtered for **accounts with over 1000 followees + followers**. Labels based on **close reading of profile descriptions**</sub>
 
-<sub>**right (this project):** community graph of communities with degree > 10,000, based on modularity maximisation for the **full Australian follow network** (> 2 million accounts). Labels based on **keyword extraction from tweets by 10% of accounts from each community**</sub>
+<sub>**right (Münch, 2019):** community graph of communities with degree > 10,000, based on modularity maximisation for the **full Australian follow network** (> 2 million accounts). Labels based on **keyword extraction from tweets by 10% of accounts from each community**</sub>
 
-^
-- left: visualisation of Australian Twitter follow network, filtered
-- the denser connected nodes are, the closer together
-- emerging clusters of high density
-- labels: close reading 100 profile descriptions per cluster
-- right: faster algorithm for community detection based on same principle
-- unfiltered
-- community graph of best-connected and largest communities
-- labels: automatic keyword detection
-- shows similar, almost same structures, e.g. porn, teens, hard-right, politics -> validates community detection and labelling method for later use
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<aside class="notes"><ul>
+<li>left: visualisation of Australian Twitter follow network, filtered</li>
+<li>the denser connected nodes are, the closer together</li>
+<li>emerging clusters of high density</li>
+<li>labels: close reading 100 profile descriptions per cluster</li>
+<li>right: faster algorithm for community detection based on same principle</li>
+<li>unfiltered</li>
+<li>community graph of best-connected and largest communities</li>
+<li>labels: automatic keyword detection</li>
+<li>shows similar, almost same structures, e.g. porn, teens, hard-right, politics -&gt; validates community detection and labelling method for later use</div></li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 ### Keyword Maps
@@ -664,66 +691,91 @@ mapping the Australian Twittersphere (follow-network) based on results from 2 di
 * based on tweets by accounts in community-cores (containing ca. 10% of respective community) from 10-19 February 2017
 * done for 53 communities containing over 1000 accounts
 
-^
-- automatic keyword extraction enabled deeper dive into topical connections
-- following figures done for all 53 communities with more than 1000 accounts, will be available online, exemplifying analysis here with only two communities
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<aside class="notes"><ul>
+<li>automatic keyword extraction enabled deeper dive into topical connections</li>
+<li>following figures done for all 53 communities with more than 1000 accounts, will be available online, exemplifying analysis here with only two communities</div></li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-![fit](figures/auspol.png|x500]]![fit](figures/hard-right.png|x500]]
+<split even >
 
-^
+<img src="Lecture_2_Epistemology_Methodology/auspol.png" alt="" style="width: 900px; object-fit: fill">
+
+<img src="Lecture_2_Epistemology_Methodology/hard-right.png" alt="" style="width: 900px; object-fit: fill">
+
+
+</split>
+
 - left side of each figure: most distinct 60 keywords and the fraction of accounts having used them in the community core in focus
 - right side of each figure: heatmap showing keyword use in all other communities
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-<img src="figures/keywords_auspol.pdf" alt="fit" style="object-fit: scale-down">
+<split even >
+<img src="Lecture_2_Epistemology_Methodology/keywords_auspol.png" alt="" style="width: 900px; object-fit: fill">
 
+<img src="Lecture_2_Epistemology_Methodology/hard-right.png" alt="" style="width: 900px; object-fit: fill">
 
-^
-- left side Australian politics, as easy to see by the keywords extracted
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+</split>
+
+left side: Australian politics, as by the extracted keywords
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-<img src="figures/keywords_auspol.pdf)![fit](figures/keywords_hard_right.pdf" alt="fit" style="object-fit: scale-down">
+<split even >
+<img src="Lecture_2_Epistemology_Methodology/keywords_auspol.png" alt="" style="width: 900px; object-fit: fill">
+
+<img src="Lecture_2_Epistemology_Methodology/keywords_hard_right.png" alt="" style="width: 900px; object-fit: fill">
+
+</split>
 
 
-^
-- right: hard-right politics cluster
-- keywords as easy to interpret as this for almost all other communities as well
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+right side: hard-right politics cluster
+
+<aside class="notes"><ul>
+<li>keywords as easy to interpret as this for almost all other communities as well</div></li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-![fit](figures/auspol_labelled.png|x500]]![fit](figures/hard-right_labelled.png|x500]]
+<split even >
+<img src="Lecture_2_Epistemology_Methodology/auspol_labelled.png" alt="" style="width: 900px; object-fit: fill">
 
-^
-- clearly visible: one-way relationship regarding topical keywords
+<img src="Lecture_2_Epistemology_Methodology/hard-right_labelled.png" alt="" style="width: 900px; object-fit: fill">
+
+</split>
+
+- visible: one-way relationship regarding topical keywords
 - hard-right uses keywords from politics, but not the other way round
 - single keywords related to Islam and migrants make it into mainstream discussion
-- critique of Islam and immigration as tactical spearhead to enter mainstream discussion
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+- critique of Islam and immigration as spearhead to enter mainstream discussion?
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 ### Adjacency Map
 
-^
-- connection between hard-right and politics also visible in another explored possibility to visualise a network
-- more common in natural sciences
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<aside class="notes"><ul>
+<li>connection between hard-right and politics also visible in another explored possibility to visualise a network</li>
+<li>more common in natural sciences</div></li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-![fit](figures/adj_PLM.png|x500]]
+<img src="Lecture_2_Epistemology_Methodology/adj_PLM.png" alt="" style="width: 1000px; object-fit: fill">
 
-^
+
 - shows how strongly connected communities are, the lighter the better
 - examples: pop culture: with music, and TV shows; politics through whole network; hard right: high inner density, strongly connected with politics
-- advantages: better overview over connections, example LGBTIQ
-- visible: density approach of modularity maximisation
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+
+<aside class="notes"><ul>
+<li>advantages: better overview over connections, example LGBTIQ</li>
+<li>visible: density approach of modularity maximisation</div></li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-### Epistemological Implications
+### Epistemological Problem
 
 #### modularity maximisation <-> echo chamber
 
@@ -731,235 +783,289 @@ mapping the Australian Twittersphere (follow-network) based on results from 2 di
 
 “An echo chamber comes into being where a group of participants _choose to preferentially connect_ with each other, to the exclusion of outsiders.” (Bruns, 2017)
 
-problem if for example trying to address the concept of echo chambers and filter bubbles: underlying definition of community with the used detection method is equivalent to echo chamber definition by Bruns
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+==> significancy problem, as the underlying definition of modularity maximisation is equivalent with echo chamber definition by Bruns
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 ### Epistemological Implications
 
+* pattern is known, easy to interpret (+)
+* efficient (+)
 * actually echo-chamber detection method (-)
 * resolution limit: either might split up large communities, or ignore small communities (-)
 * no statistical tests to distinguish noise from structure, danger of detecting patterns that are not there (apophenia) (-)
-* pattern is known, easy to interpret (+)
-* efficient (+)
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+
+<split even >
+<img src="Lecture_2_Epistemology_Methodology/Pasted image 20230420150457.png" alt="" style="width: px; height: 300px; object-fit: fill">
+
+<img src="Lecture_2_Epistemology_Methodology/Pasted image 20230420150517.png" alt="" style="width: px; height: 300px; object-fit: fill">
+
+</split>
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-## Part 2: Test of Alternative Community Detection Approach
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+## Part 2: Alternative Community Detection Approach
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 #### Nested Stochastic Block Model (SBM) Inference
 
-![right fit](figures/SBM.png|x500]]
+<split even gap="1">
+
+<img src="Lecture_2_Epistemology_Methodology/SBM.png" alt="" style="width: 150px; height: 900px; object-fit: fill">
+
 
 * SBM inference does not look for specific patterns (+-)
-* grouping nodes with similar 'roles', i.e. connection patterns (e.g., periphery, centre, bridge, echo chamber) (+)
+* rather grouping nodes with similar 'roles', i.e. connection patterns (think: periphery, centre, bridge, echo chamber) (+)
 * hierarchical: circumvents resolution limit (+)
-* safeguarded from spotting patterns that are not there (apophenia) (+)
+* statistically safeguarded from spotting patterns that are not there (apophenia) (+)
 * patterns unknown, analysis after detection, harder to interpret (-)
 
-<sub>figure from Peixoto (2017)</sub>
+</split>
 
-^
-- explain working based on slide text
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<sub>figure from Peixoto (2017)</sub>
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 ## Results
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-![fit](figures/globe.png|x500]]![fit](figures/adj matrix.png|x500]]
+### Hierarchy Tree and Adjacency Map
 
-^
-- filtered network > 1000, follow network, hierarchical network visualisation
-- left: explain levels, edges bundled by source and destination
-- labels based on same keyword detection method as before, however with tweets by all accounts
-- go quickly through tree
-- right: visualises grouping on level 1 with adjacency matrix, as above
-- hierarchy visible, larger blocks containing smaller blocks with similar connection patterns 
-- teens also here separate
-- only block spanning all seems to be entertainment
-- light diagonal represents some justification to use density as heuristic
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<split even >
+
+<img src="Lecture_2_Epistemology_Methodology/globe.png" alt="" style="width: px; height: 900px; object-fit: fill">
+
+<img src="Lecture_2_Epistemology_Methodology/adj matrix.png" alt="" style="width: px; height: 900px; object-fit: fill">
+
+
+</split>
+
+
+<aside class="notes"><ul>
+<li>filtered network &gt; 1000, follow network, hierarchical network visualisation</li>
+<li>left: explain levels, edges bundled by source and destination</li>
+<li>labels based on same keyword detection method as before, however with tweets by all accounts</li>
+<li>go quickly through tree</li>
+<li>right: visualises grouping on level 1 with adjacency matrix, as above</li>
+<li>hierarchy visible, larger blocks containing smaller blocks with similar connection patterns </li>
+<li>teens also here separate</li>
+<li>only block spanning all seems to be entertainment</li>
+<li>light diagonal represents some justification to use density as heuristic</div></li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 ### Treemaps
 
 ### hierarchical visualisation of keywords used by accounts in blocks on every level
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-<img src="medium level.png" alt="" style="width: px; height: 500px; object-fit: fill">
-<img src="treemap_2.png" alt="" style="width: px; height: 500px; object-fit: fill">
+<split wrap="3">
+<img src="Lecture_2_Epistemology_Methodology/treemap_4.png" alt="" style="width: px; height: 500px; object-fit: fill">
+
+<img src="Lecture_2_Epistemology_Methodology/medium level.png" alt="" style="width: px; height: 500px; object-fit: fill">
+
+<img src="Lecture_2_Epistemology_Methodology/treemap_2.png" alt="" style="width: px; height: 500px; object-fit: fill">
 
 
-<img src="treemap_0.png" alt="" style="width: px; height: 500px; object-fit: fill">
+<img src="Lecture_2_Epistemology_Methodology/treemap_1.png" alt="" style="width: px; height: 500px; object-fit: fill">
 
+<img src="Lecture_2_Epistemology_Methodology/treemap_0.png" alt="" style="width: px; height: 500px; object-fit: fill">
 
-provide a more and more detailed view on the topics discussed in the Australian Twittersphere during the analysed timeframe the lower the level
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+</split>
+
+<aside class="notes"><p>to provide a more and more detailed view on the topics discussed in the Australian Twittersphere during the analysed timeframe the lower the level</p>
+</div></aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-![fit](figures/treemap_4.png|x500]]
+<img src="Lecture_2_Epistemology_Methodology/treemap_4.png" alt="" style="width: px; height: 900px; object-fit: fill">
 
-of blocks represents active accounts, keywords used by at least 5% of active accounts in block 
-see divide periphery, centre, dominance of auspol
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+
+* size of blocks represents active accounts, keywords used by at least 5% of active accounts in block 
+* visible: divide in periphery & centre; dominance of auspol
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-![fit](figures/medium level.png|x500]]
+<img src="Lecture_2_Epistemology_Methodology/medium level.png" alt="" style="width: px; height: 900px; object-fit: fill">
 
-cluster, politics, sports
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+
+politics and sports become clearly visible
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-![fit](figures/treemap_2.png|x500]]![fit](figures/treemap_1.png|x500]]
+<split even >
 
-^Treemaps:
-- even more detail on level 2
-- right on the more detailed level 1
-- examples level 2: porn, teens, startups, politics, focus on sports
-- example level 1: sports now divided into different forms of sport (cricket and Rugby)
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<img src="Lecture_2_Epistemology_Methodology/treemap_2.png" alt="" style="width: px; height: 900px; object-fit: fill">
+
+<img src="Lecture_2_Epistemology_Methodology/treemap_1.png" alt="" style="width: px; height: 900px; object-fit: fill">
+
+
+
+</split>
+
+level 2: porn, teens, startups, politics
+
+level 1: sports now divided into different forms of sport (e.g. European Soccer vs AFL)
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-![fit](figures/sports lowest level.png|x500]]
+<img src="Lecture_2_Epistemology_Methodology/treemap_0.png" alt="" style="object-fit: scale-down">
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-^
+<img src="Lecture_2_Epistemology_Methodology/sports lowest level.png" alt="" style="object-fit: scale-down">
+
+
 - most detailed level, zoomed in on sports
 - now visible special interests such as golf, track athletics, or european soccer
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 ## Application to Theory (example): Networked Public Sphere
 
-close the circle: one of more examples in my thesis of use for theory based on strong empirical evidence
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<aside class="notes"><p>To close the circle: one of more examples of use for theory based on strong empirical evidence</p>
+</div></aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-![fit](figures/Bruns 1.png|x500]]![fit](figures/level 3.png|x500]]![fit](figures/net_level_2.png|x500]]
+<split even >
+<img src="Lecture_2_Epistemology_Methodology/Bruns 1.png" alt="" style="width: 600px; object-fit: fill">
 
-^
-besides the Epistemological implications discussed before:
-- possible to revisit and extend theories about a networked public sphere
-- left: block-graph from level 3, reminiscent of mainstream mountain and special interest slopes
+<img src="Lecture_2_Epistemology_Methodology/level 3.png" alt="" style="width: 600px; object-fit: fill">
+
+<img src="Lecture_2_Epistemology_Methodology/net_level_2.png" alt="" style="width: 600px; object-fit: fill">
+
+</split>
+
+- confirmation of homophily principle, as topics clearly emerge just from the follow network
+- block-graph on level 3, reminiscent of mainstream 'mountain' and special interest 'slopes and valleys' as postulated by Bruns (2008)
 - issue-publics and smaller communities become visible on right, level 2
-- We see that hierarchical algorithms make it possible to investigate theories about a networked public sphere with different forms of publics on different macro-, meso-, and micro-scales
-- closer inspection of connections of these communities and the topics that they talk about over time will help assessing and developing theories about the networked public sphere
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+
+<aside class="notes"><p>besides the Epistemological implications discussed before:</p>
+<ul>
+<li>possible to revisit and extend theories about a networked public sphere</li>
+<li>left: block-graph from level 3, reminiscent of mainstream mountain and special interest slopes</li>
+<li>issue-publics and smaller communities become visible on right, level 2</li>
+<li>We see that hierarchical algorithms make it possible to investigate theories about a networked public sphere with different forms of publics on different macro-, meso-, and micro-scales</li>
+<li>closer inspection of connections of these communities and the topics that they talk about over time will help assessing and developing theories about the networked public sphere</div></li>
+</ul>
+</aside></script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-# 7. Discussion
+# 8. What is it good for?
 
-![left fit](figures/research cycle.png|x500]]
+<img src="Lecture_2_Epistemology_Methodology/research cycle.png" alt="" style="width: px; height: 900px; object-fit: fill">
 
-^let's reflect a bit on what happened after having gone sucessfully through the cycle 2 times
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+
+<aside class="notes"><p>let&#39;s reflect a bit on what happened after having gone sucessfully through the cycle 2 times</p>
+</div></aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-## What is it good for? (Contribution to Knowledge)
+## What is it good for?
 
 
-<img src="figures/contrib_1.pdf" alt="inline fit original" style="object-fit: scale-down">
+<img src="Lecture_2_Epistemology_Methodology/contrib_1.png" alt="" style="object-fit: scale-down">
 
 
-^
-- actually too many empirical results even for the analysis in the thesis
-- 1. study: insights about virality of the events and identified important actors
-- 2. study: detailed overview of the Australian Twittersphere and association of all accounts with communities for further analysis
-- exemplified some of the opportunities to validate and extend theory
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<aside class="notes"><ul>
+<li>actually too many empirical results even for the analysis in the thesis</li>
+<li><ol>
+<li>study: insights about virality of the events and identified important actors</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>study: detailed overview of the Australian Twittersphere and association of all accounts with communities for further analysis</li>
+</ol>
+</li>
+<li>exemplified some of the opportunities to validate and extend theory</div></li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-## What is it good for? (Contribution to Knowledge)
+## What is it good for?
 
 
-<img src="figures/contrib_2.pdf" alt="inline fit original" style="object-fit: scale-down">
+<img src="Lecture_2_Epistemology_Methodology/contrib_2.png" alt="" style="object-fit: scale-down">
 
 
-^
-- longer term outcome, and actual aim of project: methods and procedures
-- for example: enable us to categorise hashtags by their virality, or inspect evolution of topics in the Australian Twittersphere over time
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<aside class="notes"><ul>
+<li>longer term outcome, and actual aim of project: methods and procedures</li>
+<li>for example: enable us to categorise hashtags by their virality, or inspect evolution of topics in the Australian Twittersphere over time</div></li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-## What is it good for? (Contribution to Knowledge)
+## What is it good for?
 
 
-<img src="figures/contrib_3.pdf" alt="inline fit original" style="object-fit: scale-down">
+<img src="Lecture_2_Epistemology_Methodology/contrib_3.png" alt="" style="object-fit: scale-down">
 
 
-^
-- not aimed for first, but most fundamental: outlined methodological Framework
-- hopefully enables, when further developed, interdisciplinary researchers or teams to overcome disciplinary divides
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<aside class="notes"><ul>
+<li>not aimed for first, but most fundamental: outlined methodological Framework</li>
+<li>hopefully enables, when further developed, interdisciplinary researchers or teams to overcome disciplinary divides</div></li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-## RQ1: How To Translate theory?
-
-^finally, let's come back to answers to the research questions
-How to translate theory?
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+## Challenge 1: How To Translate theory?
 
 * mostly straightforward: model entities as nodes, interactions as edges(, context as layers), or semantically: subjects/nouns as actors, actions/verbs as links
 * but: good background knowledge about network analysis methods as well as theories needed to construct useful models
 * especially suitable for theories about interaction patterns between individuals/entities, e.g., information diffusion, audience behaviour, publics, and communities
-* less suitable for theories that deal with phenomena beyond observable interactions, e.g., media effects
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+* less suitable for theories that deal with phenomena beyond observable interactions, e.g., media effects (hint: Machine Learning ☝️)
+
+<aside class="notes"><p>finally, let&#39;s come back to answers to the research questions
+How to translate theory?</p>
+</div></aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-## RQ2: How To Apply Network Science?
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+## Challenge 2: How To Apply Network Science?
 
-* methodological (i.e. epistemology + teleology) framework needed for sustainable integration of methods and theory
-* 'rule-based' researchers:
+* methodological (i.e., epistemological + teleological) framework needed for sustainable integration of methods and theory
+* 'rule-based' researchers need to:
 	- dare to 'jump over the abductive gap', interpret results
 	- understand context
-* 'responsive' researchers:
+* 'responsive' researchers need:
 	- true understanding, not only application, of rule-based methods as providers of patterns
-	- math and programming skills highly recommended
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+	- more math and programming skills
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 Practical steps (variations possible):
 
 1. Translating theory;
-2. model and collect data;
-3. exploration (visualisation);
-4. verification (measuring/content analysis);
-5. validation with (mathematical/agent-based) models and/or theory;
+2. model and collect data; (<-- practical 1)
+3. exploration (e.g., visualisation); (<-- practical 2)
+4. verification (measuring/content analysis); (<-- practical 3)
+5. validation with (mathematical/agent-based) models and experiments;
 6. revise theory, rinse, repeat
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-## RQ3: But why?
+## Challgenge 3: But why?
 
 * Network science is able to generate, and detect, patterns that can drive the abductive generation, and the inductive/deductive verification of hypotheses central to theory about public communication, especially on a society-wide scale.
 * Network science is particularly important for dealing with problems of organised complexity.
-* Public communication faces society-wide challenges (hate-speech, extremism, fake news, …) due to the increased structural/organised complexity of a networked public sphere.
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+* Public communication faces society-wide challenges (hate-speech, extremism, fake news, polarisation, …) due to the increased structural/organised complexity of a networked public sphere.
+</div></script></section><section data-markdown><script type="text/template">
+<img src="Lecture_2_Epistemology_Methodology/startrek3.png" alt="" style="object-fit: scale-down">
+
+</script></section></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-![fit](figures/startrek3.png|x500]]
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+# Thanks!
+
+## 🖖
+
+### Twitter/Mastodon: @flxvctr(@mas.to)
+</div></script></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-# [fit] Thanks!
-
-![inline 100%](figures/vulcan.png|x500]]
-
-### Twitter: @flxvctr
-
--->
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-# References
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+# References / Further Reading
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 Berry, D. M. (2011). The computatonal turn: thinking about the digital humanities. Culture Machine, 12, 1–22. Retrieved from http://www.culturemachine.net/index.php/cm/article/view/440/470
@@ -967,47 +1073,34 @@ Berry, D. M. (2011). The computatonal turn: thinking about the digital humanitie
 Bruns, A. (2008). Life beyond the public sphere: towards a networked model for political deliberation. Information Polity, 13, 71–85.
 
 Bruns, A. (2017). Echo Chamber? What Echo Chamber? Reviewing the Evidence. In Future of Journalism 2017. Cardiff, UK. Retrieved from https://eprints.qut.edu.au/113937/
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 Bruns, A., Moon, B., Münch, F., & Sadkowsky, T. (2017). The Australian Twittersphere in 2016: Mapping the Follower/Followee Network. Social Media + Society, 3(4). http://doi.org/10.1177/2056305117748162
 
 Dixon, D. (2012). Analysis tool or research methodology: is there an epistemology for patterns? In Understanding Digital Humanities. Palgrave Macmillan.
 
 Goel, S., Anderson, A., Hofman, J., & Watts, D. (2015). The structural virality of online diffusion. Management Science. Retrieved from http://dx.doi.org/10.1287/mnsc.2015.2158
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 Habermas, J. (2006). Political communication in media society: does democracy still enjoy an epistemic dimension? The impact of normative theory on empirical research. Communication Theory, 16(4), 411–426. 
 http://doi.org/10.1111/j.1468-2885.2006.00280.x
-
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 Halavais, A. (2015). Bigger sociological imaginations: framing big social data theory and methods. Information, Communication & Society, 18(5), 583–594. http://doi.org/10.1080/1369118X.2015.1008543
 
 Luhmann, N. (1997). Die Gesellschaft der Gesellschaft. Frankfurt am Main: Suhrkamp.
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 McQuail, D. (2010). Mass communication theory (6th ed.). SAGE Publications.
 
+Münch, F. V. (2019). _Measuring the Networked Public – Exploring Network Science Methods for Large Scale Online Media Studies_ [PhD thesis, Queensland University of Technology]. [https://doi.org/10.5204/thesis.eprints.125543](https://doi.org/10.5204/thesis.eprints.125543)
 
 Onwuegbuzie, A. J., & Leech, N. L. (2005). On Becoming a Pragmatic Researcher: The Importance of Combining Quantitative and Qualitative Research Methodologies. International Journal of Social Research Methodology, 8(5), 375–387. http://doi.org/10.1080/13645570500402447
 
-
 Peixoto, T. P. (2017). The graph-tool python library. http://doi.org/10.6084/M9.FIGSHARE.1164194.V14
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 Sechrest, L., & Sidani, S. (1995). Quantitative and qualitative methods: Is There an Alternative? Evaluation and Program Planning, 18(1), 77–87. http://doi.org/10.1016/0149-7189(94)00051-X
 
 Weaver, W. (1948). Science and complexity. American Scientist, 36(4), 536–544. Retrieved from http://www.jstor.org/stable/27826254
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 1080px; width: 1920px; min-height: 1080px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-# Questions?
-
-@flxvctr
-</div></script></section></div>
+</div></script></section></section></div>
     </div>
 
     <script src="dist/reveal.js"></script>
@@ -1125,7 +1218,7 @@ Weaver, W. (1948). Science and complexity. American Scientist, 36(4), 536–544.
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {"width":1920,"height":1080,"margin":0.04,"controls":true,"progress":true,"slideNumber":false,"transition":"none","transitionSpeed":"default","mermaid":{"themeVariables":{"fontsize":"128px"}}}, queryOptions);
+      var options = extend(defaultOptions, {"width":1920,"height":1080,"margin":0.04,"controls":true,"progress":true,"slideNumber":true,"transition":"none","transitionSpeed":"default","mermaid":{"themeVariables":{"fontsize":"128px"}}}, queryOptions);
     </script>
 
     <script>

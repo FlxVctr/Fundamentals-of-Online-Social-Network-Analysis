@@ -15,7 +15,7 @@ mermaid:
 Epistemological/methodological challenges of network science in computational social science, representativity problems, network science as a way to handle organised complexity, research examples
 
 
----
+--
 
 # Who is this guy?
 
@@ -25,13 +25,18 @@ Media Research Methods Lab & Social Media Observatory of the Research Institute 
 
 @ Leibniz-Institute for Media Research | Hans-Bredow-Institut
 
----
+--
 
 # The Plan
 
-1.
-2.
-3.
+1. Computational Social Science
+2. Today's Example: The Networked Public Sphere
+3. Organised Complexity and Network Science
+4. Challenges in Network Science for Computational Communication Science
+5. A Possible Methodological Framework
+6. Example 1: Measuring Virality of Communication
+7. Example 2: Mapping a Public Sphere
+8. What is it good for?
 
 Afterwards:
 
@@ -727,20 +732,20 @@ Note:
 Note:
 to provide a more and more detailed view on the topics discussed in the Australian Twittersphere during the analysed timeframe the lower the level
 
----
+--
 
 ![[treemap_4.png|x900]]
 
 * size of blocks represents active accounts, keywords used by at least 5% of active accounts in block 
 * visible: divide in periphery & centre; dominance of auspol
 
----
+--
 
 ![[medium level.png|x900]]
 
 politics and sports become clearly visible
 
----
+--
 
 <split even >
 
@@ -772,7 +777,7 @@ level 1: sports now divided into different forms of sport (e.g. European Soccer 
 Note:
 To close the circle: one of more examples of use for theory based on strong empirical evidence
 
----
+--
 
 <split even >
 ![[Bruns 1.png|600]]
@@ -795,104 +800,95 @@ besides the Epistemological implications discussed before:
 
 ---
 
-# 8. Discussion
+# 8. What is it good for?
 
-![[research cycle.png|x1000]]
+![[research cycle.png|x900]]
 
 Note:
 let's reflect a bit on what happened after having gone sucessfully through the cycle 2 times
 
 --
 
-## What is it good for? (Contribution to Knowledge)
+## What is it good for?
 
 
-![inline fit original](figures/contrib_1.pdf)
+![[contrib_1.png]]
 
-^
+Note:
 - actually too many empirical results even for the analysis in the thesis
 - 1. study: insights about virality of the events and identified important actors
 - 2. study: detailed overview of the Australian Twittersphere and association of all accounts with communities for further analysis
 - exemplified some of the opportunities to validate and extend theory
 
----
+--
 
-## What is it good for? (Contribution to Knowledge)
+## What is it good for?
 
 
-![inline fit original](figures/contrib_2.pdf)
+![[contrib_2.png]]
 
-^
+Note:
 - longer term outcome, and actual aim of project: methods and procedures
 - for example: enable us to categorise hashtags by their virality, or inspect evolution of topics in the Australian Twittersphere over time
 
----
+--
 
-## What is it good for? (Contribution to Knowledge)
+## What is it good for?
 
 
-![inline fit original](figures/contrib_3.pdf)
+![[contrib_3.png]]
 
-^
+Note:
 - not aimed for first, but most fundamental: outlined methodological Framework
 - hopefully enables, when further developed, interdisciplinary researchers or teams to overcome disciplinary divides
 
----
+--
 
-## RQ1: How To Translate theory?
-
-^finally, let's come back to answers to the research questions
-How to translate theory?
-
----
+## Challenge 1: How To Translate theory?
 
 * mostly straightforward: model entities as nodes, interactions as edges(, context as layers), or semantically: subjects/nouns as actors, actions/verbs as links
 * but: good background knowledge about network analysis methods as well as theories needed to construct useful models
 * especially suitable for theories about interaction patterns between individuals/entities, e.g., information diffusion, audience behaviour, publics, and communities
-* less suitable for theories that deal with phenomena beyond observable interactions, e.g., media effects
+* less suitable for theories that deal with phenomena beyond observable interactions, e.g., media effects (hint: Machine Learning ☝️)
 
-^28
+Note:
+finally, let's come back to answers to the research questions
+How to translate theory?
 
----
+--
 
-## RQ2: How To Apply Network Science?
+## Challenge 2: How To Apply Network Science?
 
----
-
-* methodological (i.e. epistemology + teleology) framework needed for sustainable integration of methods and theory
-* 'rule-based' researchers:
+* methodological (i.e., epistemological + teleological) framework needed for sustainable integration of methods and theory
+* 'rule-based' researchers need to:
 	- dare to 'jump over the abductive gap', interpret results
 	- understand context
-* 'responsive' researchers:
+* 'responsive' researchers need:
 	- true understanding, not only application, of rule-based methods as providers of patterns
-	- math and programming skills highly recommended
+	- more math and programming skills
 
----
+--
 
 Practical steps (variations possible):
 
 1. Translating theory;
-2. model and collect data;
-3. exploration (visualisation);
-4. verification (measuring/content analysis);
-5. validation with (mathematical/agent-based) models and/or theory;
+2. model and collect data; (<-- practical 1)
+3. exploration (e.g., visualisation); (<-- practical 2)
+4. verification (measuring/content analysis); (<-- practical 3)
+5. validation with (mathematical/agent-based) models and experiments;
 6. revise theory, rinse, repeat
 
-^29
+--
 
----
-
-## RQ3: But why?
+## Challgenge 3: But why?
 
 * Network science is able to generate, and detect, patterns that can drive the abductive generation, and the inductive/deductive verification of hypotheses central to theory about public communication, especially on a society-wide scale.
 * Network science is particularly important for dealing with problems of organised complexity.
-* Public communication faces society-wide challenges (hate-speech, extremism, fake news, …) due to the increased structural/organised complexity of a networked public sphere.
+* Public communication faces society-wide challenges (hate-speech, extremism, fake news, polarisation, …) due to the increased structural/organised complexity of a networked public sphere.
 
-^30
+--
 
----
-
-![fit](figures/startrek3.png|x500]]
+![[startrek3.png]]
 
 ---
 
@@ -904,9 +900,9 @@ Practical steps (variations possible):
 
 ---
 
-# References
+# References / Further Reading
 
----
+--
 
 Berry, D. M. (2011). The computatonal turn: thinking about the digital humanities. Culture Machine, 12, 1–22. Retrieved from http://www.culturemachine.net/index.php/cm/article/view/440/470
 
@@ -914,25 +910,20 @@ Bruns, A. (2008). Life beyond the public sphere: towards a networked model for p
 
 Bruns, A. (2017). Echo Chamber? What Echo Chamber? Reviewing the Evidence. In Future of Journalism 2017. Cardiff, UK. Retrieved from https://eprints.qut.edu.au/113937/
 
----
-
 Bruns, A., Moon, B., Münch, F., & Sadkowsky, T. (2017). The Australian Twittersphere in 2016: Mapping the Follower/Followee Network. Social Media + Society, 3(4). http://doi.org/10.1177/2056305117748162
 
 Dixon, D. (2012). Analysis tool or research methodology: is there an epistemology for patterns? In Understanding Digital Humanities. Palgrave Macmillan.
 
 Goel, S., Anderson, A., Hofman, J., & Watts, D. (2015). The structural virality of online diffusion. Management Science. Retrieved from http://dx.doi.org/10.1287/mnsc.2015.2158
 
----
-
 Habermas, J. (2006). Political communication in media society: does democracy still enjoy an epistemic dimension? The impact of normative theory on empirical research. Communication Theory, 16(4), 411–426. 
 http://doi.org/10.1111/j.1468-2885.2006.00280.x
 
+--
 
 Halavais, A. (2015). Bigger sociological imaginations: framing big social data theory and methods. Information, Communication & Society, 18(5), 583–594. http://doi.org/10.1080/1369118X.2015.1008543
 
 Luhmann, N. (1997). Die Gesellschaft der Gesellschaft. Frankfurt am Main: Suhrkamp.
-
----
 
 McQuail, D. (2010). Mass communication theory (6th ed.). SAGE Publications.
 
@@ -940,17 +931,8 @@ Münch, F. V. (2019). _Measuring the Networked Public – Exploring Network Scie
 
 Onwuegbuzie, A. J., & Leech, N. L. (2005). On Becoming a Pragmatic Researcher: The Importance of Combining Quantitative and Qualitative Research Methodologies. International Journal of Social Research Methodology, 8(5), 375–387. http://doi.org/10.1080/13645570500402447
 
-
 Peixoto, T. P. (2017). The graph-tool python library. http://doi.org/10.6084/M9.FIGSHARE.1164194.V14
-
----
 
 Sechrest, L., & Sidani, S. (1995). Quantitative and qualitative methods: Is There an Alternative? Evaluation and Program Planning, 18(1), 77–87. http://doi.org/10.1016/0149-7189(94)00051-X
 
 Weaver, W. (1948). Science and complexity. American Scientist, 36(4), 536–544. Retrieved from http://www.jstor.org/stable/27826254
-
----
-
-# Questions?
-
-@flxvctr
