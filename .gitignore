@@ -2,3 +2,6 @@
 .obsidian
 Pipfile.lock
 leo_tweets.csv
+Lab_2_Networking_Data/hashtags.csv
+.gitignore
+Lab_2_Networking_Data/mentions.csv
