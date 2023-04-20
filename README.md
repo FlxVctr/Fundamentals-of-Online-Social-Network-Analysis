@@ -24,7 +24,7 @@ Under construction
 
 [Presentation](https://flxvctr.github.io/Fundamentals-of-Online-Social-Network-Analysis/2_Epistemology_Methodology)
 
-[Slides as PDF](https://github.com/FlxVctr/Fundamentals-of-Online-Social-Network-Analysis/raw/main/Lecture_1_Fundamentals/2_Lecture.pdf)
+[Slides as PDF](https://github.com/FlxVctr/Fundamentals-of-Online-Social-Network-Analysis/raw/main/Lecture_2_Epistemology_Methodology/2_Lecture.pdf)
 
 #### Acknowledgements
 
