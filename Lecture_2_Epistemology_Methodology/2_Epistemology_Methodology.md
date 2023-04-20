@@ -2,7 +2,7 @@
 transition: none
 width: 1920
 height: 1080
-theme: solarized
+theme: white
 mermaid:
   themeVariables:
     fontsize: 128px
@@ -21,7 +21,9 @@ Epistemological/methodological challenges of network science in computational so
 
 Dr. Felix Victor Münch
 
-Leibniz-Institute for Media Research | Hans-Bredow-Institut
+Media Research Methods Lab & Social Media Observatory of the Research Institute Social Cohesion 
+
+@ Leibniz-Institute for Media Research | Hans-Bredow-Institut
 
 ---
 
@@ -49,7 +51,7 @@ Physics B.Sc. -> Journalism M.A. -> Online Brand Communication Agency
 
 -> PhD @ Queensland University of Technology, Digital Media Research Centre
 
-# 🤷‍♂️
+## 🤷‍♂️
 
 --
 
@@ -332,13 +334,12 @@ provides us, in a pragmatic worldview, with a scope to validate our methods by t
 
 ---
 
-# 5. Example 1: Measuring Communication Cascades
+# 6. Example 1: Measuring Communication Cascades
 
 Note:
 - went through cycle two times: acute events (information diffusion, virality), national public sphere (communities, audiences, publics)
 
 --
-
 
 ## Cases
 
@@ -402,14 +403,12 @@ Note:
 
 <sub>Diffusion trees reconstructed from __first 10,000 participating accounts__ in each case.</sub>
 
-Note:
-from collected data:
-- reconstructed diffusion network
-- based on assumption that the last exposure triggered the reshare
-- colour by connected component (meaning nodes being reachable from each other via the links have same colour)
+- reconstructed diffusion network, based on assumption that the last exposure triggered the reshare
+- colour by connected component
 - decreasing dominance of largest components
-- increasing number of components
-- equivalent to number of entry points -> more viral, more 'organic growth', less viral, more 'outside influence'
+- increasing number of components, equivalent to number of entry points -> more viral, more 'organic growth', less viral, more 'outside influence'
+
+Note:
 - in Brexit case explainable by the fact that a lot of shares might be simply triggered by a tweet button on the petition website
 
 --
@@ -430,33 +429,52 @@ Note:
 - again confirmation of intuition
 - structural virality the highest for illridewithyou, the lowest for petition
 
-<!--
 --
 
 ### Influence Network
 
-![inline fit](figures/ride 2.png|x500]]![fit](figures/siege 3.png|x500]]![fit](figures/brexit 3.png|x500]]
+<split even >
+
+![[ride 2.png|x500]]
+![[siege 3.png|x500]]
+![[brexit 3.png|x500]]
 
 
-^
-- influence network constructed in a way that if I followed another account + this account posted item before I did = connection
-- gives up assumption of single exposure -> enables to analyse possible complex contagion
-- hashtags both more clustered: more dense underlying community structure in form of follow connections
+</split>
 
----
+- if I followed another account + this account posted item before I did -> connection
+- gives up assumption of single exposure -> enables to analyse possible **complex contagion**
+- observation: hashtags both more clustered -> denser underlying community structure in form of follows
+
+--
 
 ### Complexity of Contagion/Exposures per Friend (Followee)
 
-![inline](figures/exposures_per_friend_illridewithyou.png|x500]]![[exposures_per_friend_sydneysiege.png|x500]]![[brexit_exp.png|x500]]
+<split even>
 
-^
-- the graphs show how the number of infections increases with the exposures to the respective item per friend
+![[exposures_per_friend_illridewithyou.png|x400]]
+![[exposures_per_friend_sydneysiege.png|x400]]
+![[brexit_exp.png|x400]]
+
+
+</split>
+
+
+- the number of infections increases with the exposures to the respective item per friend
 - could be understood as some form of 'peer pressure'
 - average highest for illridewithyou (5 exposures per 100 friends)
 - middle sydneysiege (3 exposures per 100 friends)
 - far below for link (6 per 1000 friends)
 
----
+--
+
+### Complexity of Contagion/Exposures per Friend (Followee)
+
+![[exposures per friend.png|1000]]
+
+Limitation: the effect is hard to separate from the 'organic grown' nature of #illridewithyou 
+
+--
 
 ### Summary of Results
 |                          | #illridewithyou | #sydneysiege | petition |
@@ -469,70 +487,64 @@ Note:
 | **'virality'**           | **high**        | **medium**   | **low**  |
 | **complexity of contagion**  | +++             | ++           | +        |
 
-<sub>\*see thesis</sub>
+<sub>\*see Münch (2019)</sub>
 
-^
+Note:
 - summary: all results point to higher virality
 - except: higher complexity for illridewithyou appears counterintuitive first
 - in fact:  underlines together with clustering importance of underlying structures of attention
 
----
+--
 
 ## Application to Theory (example): Gatekeeping
 
-^(besides clarifiying concepts of virality) closes circle to theory by providing base for thoughts on an extension of concept of gatekeeping
+Note:
+(besides clarifiying concepts of virality) closes circle to theory by providing base for thoughts on an extension of concept of gatekeeping
 
----
+--
 
-![fit](figures/distributed_gatekeeping.pdf)
+![[distributed_gatekeeping.png|x800]]
 
-^
-- based on this and literature, propose a concept of distributed gatekeeping in networks, based on limited attention space
-- very limited example here, but good to get the idea, links symbolise long-term attention
-- let's say general average threshold of 2 to reshare an item
 
----
+- concept of distributed gatekeeping in networks, based on limited attention space
+- assumption for example: general average threshold of 2 to reshare an item
 
-![fit](figures/distributed_gatekeeping_1.pdf)
+--
 
-^
-- this node, acts as a quasi-gatekeeper gets the message through to the target
-- important observation: based on properties of node (lower threshold), but also on position in the network (node on the far right would not have had success)
+![[distributed_gatekeeping_1.png|x800]]
+
+
+One node acts as a quasi-gatekeeper to get the message through to the target, based on properties of the node (lower threshold), but also on position in the network (node on the far right would not succeed)
+
+Note:
 - we can see that underlying, long-term network structure is important at small scales
 - also possible to see the nodes as groups of nodes -> leads us to consider large-scale communication structures, thereby to next study
 
 ---
 
-# 6. Study 2: Mappings of a Public Sphere
+# 7. Example 2: Mappings of a Public Sphere
 
-^20 minutes
 
----
-
-## 4 kinds of maps from 2 perspectives
-
-* force directed network maps
-* keyword mappings
-* adjacency maps
-* treemaps
-
-mapping the Australian Twittersphere (follow-network) based on results from 2 different community detection approaches
-
----
+--
 
 ## Part 1: The Quasi-Standard – Communities Based on Inner Density (Modularity Maximisation)
 
----
+--
 
-![inline fit original](figures/bruns_map.png|x500]]
+<split even >
 
-![right fit original](figures/new result.png|x500]]
+![[bruns_map.png|x800]]
+
+![[new result.png|x800]]
+
+
+</split>
 
 <sub>__left (Bruns et al., 2017):__ Australian follow network filtered for __accounts with over 1000 followees + followers__. Labels based on **close reading of profile descriptions**</sub>
 
-<sub>__right (this project):__ community graph of communities with degree > 10,000, based on modularity maximisation for the __full Australian follow network__ (> 2 million accounts). Labels based on **keyword extraction from tweets by 10% of accounts from each community**</sub>
+<sub>__right (Münch, 2019):__ community graph of communities with degree > 10,000, based on modularity maximisation for the __full Australian follow network__ (> 2 million accounts). Labels based on **keyword extraction from tweets by 10% of accounts from each community**</sub>
 
-^
+Note:
 - left: visualisation of Australian Twitter follow network, filtered
 - the denser connected nodes are, the closer together
 - emerging clusters of high density
@@ -543,71 +555,85 @@ mapping the Australian Twittersphere (follow-network) based on results from 2 di
 - labels: automatic keyword detection
 - shows similar, almost same structures, e.g. porn, teens, hard-right, politics -> validates community detection and labelling method for later use
 
----
+--
 
 ### Keyword Maps
 
 * based on tweets by accounts in community-cores (containing ca. 10% of respective community) from 10-19 February 2017
 * done for 53 communities containing over 1000 accounts
 
-^
+Note:
 - automatic keyword extraction enabled deeper dive into topical connections
 - following figures done for all 53 communities with more than 1000 accounts, will be available online, exemplifying analysis here with only two communities
 
----
+--
 
-![fit](figures/auspol.png|x500]]![fit](figures/hard-right.png|x500]]
+<split even >
 
-^
+![[auspol.png|900]]
+![[hard-right.png|900]]
+
+</split>
+
 - left side of each figure: most distinct 60 keywords and the fraction of accounts having used them in the community core in focus
 - right side of each figure: heatmap showing keyword use in all other communities
 
----
+--
 
-![fit](figures/keywords_auspol.pdf)![fit](figures/hard-right.png|x500]]
+<split even >
+![[keywords_auspol.png|900]]
+![[hard-right.png|900]]
+</split>
 
-^
-- left side Australian politics, as easy to see by the keywords extracted
+left side: Australian politics, as by the extracted keywords
 
----
+--
 
-![fit](figures/keywords_auspol.pdf)![fit](figures/keywords_hard_right.pdf)
+<split even >
+![[keywords_auspol.png|900]]
+![[keywords_hard_right.png|900]]
+</split>
 
-^
-- right: hard-right politics cluster
+
+right side: hard-right politics cluster
+
+Note:
 - keywords as easy to interpret as this for almost all other communities as well
 
----
+--
 
-![fit](figures/auspol_labelled.png|x500]]![fit](figures/hard-right_labelled.png|x500]]
+<split even >
+![[auspol_labelled.png|900]]
+![[hard-right_labelled.png|900]]
+</split>
 
-^
-- clearly visible: one-way relationship regarding topical keywords
+- visible: one-way relationship regarding topical keywords
 - hard-right uses keywords from politics, but not the other way round
 - single keywords related to Islam and migrants make it into mainstream discussion
-- critique of Islam and immigration as tactical spearhead to enter mainstream discussion
+- critique of Islam and immigration as spearhead to enter mainstream discussion?
 
----
+--
 
 ### Adjacency Map
 
-^
+Note:
 - connection between hard-right and politics also visible in another explored possibility to visualise a network
 - more common in natural sciences
 
----
+--
 
-![fit](figures/adj_PLM.png|x500]]
+![[adj_PLM.png|1000]]
 
-^
 - shows how strongly connected communities are, the lighter the better
 - examples: pop culture: with music, and TV shows; politics through whole network; hard right: high inner density, strongly connected with politics
+
+Note:
 - advantages: better overview over connections, example LGBTIQ
 - visible: density approach of modularity maximisation
 
----
+--
 
-### Epistemological Implications
+### Epistemological Problem
 
 #### modularity maximisation <-> echo chamber
 
@@ -615,48 +641,62 @@ mapping the Australian Twittersphere (follow-network) based on results from 2 di
 
 “An echo chamber comes into being where a group of participants _choose to preferentially connect_ with each other, to the exclusion of outsiders.” (Bruns, 2017)
 
-^subtle problem if for example trying to address the concept of echo chambers and filter bubbles: underlying definition of community with the used detection method is equivalent to echo chamber definition by Bruns
+==> significancy problem, as the underlying definition of modularity maximisation is equivalent with echo chamber definition by Bruns
 
----
+--
 
 ### Epistemological Implications
 
+* pattern is known, easy to interpret (+)
+* efficient (+)
 * actually echo-chamber detection method (-)
 * resolution limit: either might split up large communities, or ignore small communities (-)
 * no statistical tests to distinguish noise from structure, danger of detecting patterns that are not there (apophenia) (-)
-* pattern is known, easy to interpret (+)
-* efficient (+)
 
----
+<split even >
+![[Pasted image 20230420150457.png|x300]]
+![[Pasted image 20230420150517.png|x300]]
+</split>
 
-## Part 2: Test of Alternative Community Detection Approach
+--
 
----
+## Part 2: Alternative Community Detection Approach
+
+--
 
 #### Nested Stochastic Block Model (SBM) Inference
 
-![right fit](figures/SBM.png|x500]]
+<split even gap="1">
+
+![[SBM.png|150x900]]
 
 * SBM inference does not look for specific patterns (+-)
-* grouping nodes with similar 'roles', i.e. connection patterns (e.g., periphery, centre, bridge, echo chamber) (+)
+* rather grouping nodes with similar 'roles', i.e. connection patterns (think: periphery, centre, bridge, echo chamber) (+)
 * hierarchical: circumvents resolution limit (+)
-* safeguarded from spotting patterns that are not there (apophenia) (+)
+* statistically safeguarded from spotting patterns that are not there (apophenia) (+)
 * patterns unknown, analysis after detection, harder to interpret (-)
+
+</split>
 
 <sub>figure from Peixoto (2017)</sub>
 
-^
-- explain working based on slide text
-
----
+--
 
 ## Results
 
----
+--
 
-![fit](figures/globe.png|x500]]![fit](figures/adj matrix.png|x500]]
+### Hierarchy Tree and Adjacency Map
 
-^
+<split even >
+
+![[globe.png|x900]]
+![[adj matrix.png|x900]]
+
+</split>
+
+
+Note:
 - filtered network > 1000, follow network, hierarchical network visualisation
 - left: explain levels, edges bundled by source and destination
 - labels based on same keyword detection method as before, however with tweets by all accounts
@@ -667,62 +707,84 @@ mapping the Australian Twittersphere (follow-network) based on results from 2 di
 - only block spanning all seems to be entertainment
 - light diagonal represents some justification to use density as heuristic
 
----
+--
 
 ### Treemaps
 
 ### hierarchical visualisation of keywords used by accounts in blocks on every level
 
----
+--
 
-![inline](figures/treemap_4.png|x500]]![[medium level.png|x500]]![[treemap_2.png|x500]]
+<split wrap="3">
+![[treemap_4.png|x500]]
+![[medium level.png|x500]]
+![[treemap_2.png|x500]]
 
-![inline](figures/treemap_1.png|x500]]![[treemap_0.png|x500]]
+![[treemap_1.png|x500]]
+![[treemap_0.png|x500]]
+</split>
 
-^to provide a more and more detailed view on the topics discussed in the Australian Twittersphere during the analysed timeframe the lower the level
-
----
-
-![fit](figures/treemap_4.png|x500]]
-
-^size of blocks represents active accounts, keywords used by at least 5% of active accounts in block 
-see divide periphery, centre, dominance of auspol
-
----
-
-![fit](figures/medium level.png|x500]]
-
-^teenage cluster, politics, sports
+Note:
+to provide a more and more detailed view on the topics discussed in the Australian Twittersphere during the analysed timeframe the lower the level
 
 ---
 
-![fit](figures/treemap_2.png|x500]]![fit](figures/treemap_1.png|x500]]
+![[treemap_4.png|x900]]
 
-^Treemaps:
-- even more detail on level 2
-- right on the more detailed level 1
-- examples level 2: porn, teens, startups, politics, focus on sports
-- example level 1: sports now divided into different forms of sport (cricket and Rugby)
+* size of blocks represents active accounts, keywords used by at least 5% of active accounts in block 
+* visible: divide in periphery & centre; dominance of auspol
 
 ---
 
-![fit](figures/sports lowest level.png|x500]]
+![[medium level.png|x900]]
 
-^
+politics and sports become clearly visible
+
+---
+
+<split even >
+
+![[treemap_2.png|x900]]
+![[treemap_1.png|x900]]
+
+
+</split>
+
+level 2: porn, teens, startups, politics
+
+level 1: sports now divided into different forms of sport (e.g. European Soccer vs AFL)
+
+--
+
+![[treemap_0.png]]
+
+--
+
+![[sports lowest level.png]]
+
 - most detailed level, zoomed in on sports
 - now visible special interests such as golf, track athletics, or european soccer
 
----
+--
 
 ## Application to Theory (example): Networked Public Sphere
 
-^To close the circle: one of more examples in my thesis of use for theory based on strong empirical evidence
+Note:
+To close the circle: one of more examples of use for theory based on strong empirical evidence
 
 ---
 
-![fit](figures/Bruns 1.png|x500]]![fit](figures/level 3.png|x500]]![fit](figures/net_level_2.png|x500]]
+<split even >
+![[Bruns 1.png|600]]
+![[level 3.png|600]]
+![[net_level_2.png|600]]
+</split>
 
-^
+- confirmation of homophily principle, as topics clearly emerge just from the follow network
+- block-graph on level 3, reminiscent of mainstream 'mountain' and special interest 'slopes and valleys' as postulated by Bruns (2008)
+- issue-publics and smaller communities become visible on right, level 2
+
+Note:
 besides the Epistemological implications discussed before:
 - possible to revisit and extend theories about a networked public sphere
 - left: block-graph from level 3, reminiscent of mainstream mountain and special interest slopes
@@ -730,15 +792,17 @@ besides the Epistemological implications discussed before:
 - We see that hierarchical algorithms make it possible to investigate theories about a networked public sphere with different forms of publics on different macro-, meso-, and micro-scales
 - closer inspection of connections of these communities and the topics that they talk about over time will help assessing and developing theories about the networked public sphere
 
----
-
-# 7. Discussion
-
-![left fit](figures/research cycle.png|x500]]
-
-^let's reflect a bit on what happened after having gone sucessfully through the cycle 2 times
 
 ---
+
+# 8. Discussion
+
+![[research cycle.png|x1000]]
+
+Note:
+let's reflect a bit on what happened after having gone sucessfully through the cycle 2 times
+
+--
 
 ## What is it good for? (Contribution to Knowledge)
 
@@ -832,13 +896,12 @@ Practical steps (variations possible):
 
 ---
 
-# [fit] Thanks!
+# Thanks!
 
-![inline 100%](figures/vulcan.png|x500]]
+## 🖖
 
-### Twitter: @flxvctr
+### Twitter/Mastodon: @flxvctr(@mas.to)
 
--->
 ---
 
 # References
@@ -873,6 +936,7 @@ Luhmann, N. (1997). Die Gesellschaft der Gesellschaft. Frankfurt am Main: Suhrka
 
 McQuail, D. (2010). Mass communication theory (6th ed.). SAGE Publications.
 
+Münch, F. V. (2019). _Measuring the Networked Public – Exploring Network Science Methods for Large Scale Online Media Studies_ [PhD thesis, Queensland University of Technology]. [https://doi.org/10.5204/thesis.eprints.125543](https://doi.org/10.5204/thesis.eprints.125543)
 
 Onwuegbuzie, A. J., & Leech, N. L. (2005). On Becoming a Pragmatic Researcher: The Importance of Combining Quantitative and Qualitative Research Methodologies. International Journal of Social Research Methodology, 8(5), 375–387. http://doi.org/10.1080/13645570500402447
 
