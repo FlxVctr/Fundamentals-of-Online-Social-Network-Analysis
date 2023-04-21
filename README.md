@@ -6,7 +6,9 @@ Course Materials (Presentation, Lecture Notes and Notebooks)
 
 Under construction
 
-# LECTURE 1: Online Social Networks, Elements of Networks, Network Measures, Data Sources
+## LECTURE 1
+
+Online Social Networks, Elements of Networks, Network Measures, Data Sources
 
 [Presentation](https://flxvctr.github.io/Fundamentals-of-Online-Social-Network-Analysis/1_Fundamentals)
 
@@ -14,19 +16,29 @@ Under construction
 
 [Slides as A4 Portrait PDF, e.g., for handwritten notes](https://github.com/FlxVctr/Fundamentals-of-Online-Social-Network-Analysis/raw/main/Lecture_1_Fundamentals/1_Fundamentals.pdf)
 
-# PRACTICAL 1: Getting and Exploring Data with Minet and Python Pandas
+## PRACTICAL 1: Getting and Exploring Data with Minet and Python Pandas
+
+Collect and explore data about discussions on Twitter about tank deliveries from Germany to Ukraine.
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FlxVctr/Fundamentals-of-Online-Social-Network-Analysis/HEAD)
 
 (Click to start a Jupyter Lab for the exercises)
 
+## LECTURE 2
 
-# LECTURE 2: Epistemological/Methodological Implications for the Social Sciences
+Epistemological/methodological challenges of network science in computational social science, network science as a way to handle organised complexity, research examples
 
 [Presentation](https://flxvctr.github.io/Fundamentals-of-Online-Social-Network-Analysis/2_Epistemology_Methodology)
 
 [Slides as PDF](https://github.com/FlxVctr/Fundamentals-of-Online-Social-Network-Analysis/raw/main/Lecture_2_Epistemology_Methodology/2_Lecture.pdf)
 
-#### Acknowledgements
+## PRACTICAL 2: Converting Data to Networks for Analysis with Gephi
+
+Convert the data from Practical 1 into edge lists and import them into Gephi for an exploratory network analysis.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FlxVctr/Fundamentals-of-Online-Social-Network-Analysis/HEAD)
+
+## Acknowledgements
 
 Thanks to [Dr. Maris Männiste](https://scholar.google.com/citations?user=R_1OIlUAAAAJ&hl=en) and the [University of Tartu](https://ut.ee/en) for funding the development and hosting this course.
 
