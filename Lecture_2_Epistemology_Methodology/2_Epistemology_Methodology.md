@@ -562,6 +562,21 @@ Note:
 
 --
 
+### Adjacency Map
+
+![[adj_PLM.png|900]]
+
+- shows how strongly connected communities are, the lighter the better
+- examples: pop culture: with music, and TV shows; politics through whole network; hard right: high inner density, strongly connected with politics
+
+Note:
+- advantages: better overview over connections, example LGBTIQ
+- visible: density approach of modularity maximisation
+- connection between hard-right and politics also visible in another explored possibility to visualise a network
+- more common in natural sciences
+
+--
+
 ### Keyword Maps
 
 * based on tweets by accounts in community-cores (containing ca. 10% of respective community) from 10-19 February 2017
@@ -616,25 +631,6 @@ Note:
 - hard-right uses keywords from politics, but not the other way round
 - single keywords related to Islam and migrants make it into mainstream discussion
 - critique of Islam and immigration as spearhead to enter mainstream discussion?
-
---
-
-### Adjacency Map
-
-Note:
-- connection between hard-right and politics also visible in another explored possibility to visualise a network
-- more common in natural sciences
-
---
-
-![[adj_PLM.png|1000]]
-
-- shows how strongly connected communities are, the lighter the better
-- examples: pop culture: with music, and TV shows; politics through whole network; hard right: high inner density, strongly connected with politics
-
-Note:
-- advantages: better overview over connections, example LGBTIQ
-- visible: density approach of modularity maximisation
 
 --
 
