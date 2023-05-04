@@ -38,6 +38,12 @@ Convert the data from Practical 1 into edge lists and import them into Gephi for
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FlxVctr/Fundamentals-of-Online-Social-Network-Analysis/HEAD)
 
+## PRACTICAL 3: Visualise Dynamic Networks over Time with Gephi
+
+Visualise the data from Practical 2 as a dynamic network over time with Gephi.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FlxVctr/Fundamentals-of-Online-Social-Network-Analysis/HEAD)
+
 ## Acknowledgements
 
 Thanks to [Dr. Maris Männiste](https://scholar.google.com/citations?user=R_1OIlUAAAAJ&hl=en) and the [University of Tartu](https://ut.ee/en) for funding the development and hosting this course.

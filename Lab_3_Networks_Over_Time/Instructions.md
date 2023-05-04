@@ -10,15 +10,17 @@ Open the network with Gephi. Make sure the time representation is set to timesta
 
 ## Prepare for Animation
 
-Switch to the Data Laboratory and inspect the edges. Copy the time column to the timestamp column and enable the timeline. Play around with the timeline and see what happens.
+Switch to the Data Laboratory and inspect the edges. Copy the time column to the timestamp column and enable the timeline.
 
 ## Create a Layout with Force Atlas 2
 
-Switch back to Overview. Try tuning the different layout parameters. The most important will be scaling, and see what happens. If you click on the name of a parameter, Gephi will provide an explanation of what it does.
+Switch back to Overview.
+
+Play around with the timeline and see what happens. Then deactivate the timeline.
+
+Create a layout with Force Atlas 2. Try tuning the different layout parameters. The most important will be scaling, and see what happens. If you click on the name of a parameter, Gephi will provide an explanation of what it does.
 
 Don't forget to prevent overlap at the end.
-
-You can also try the other layouts.
 
 ## Create a Ranking
 
@@ -26,11 +28,13 @@ Use the (undirected?) page rank statistic to create a ranking. Use the ranking t
 
 You might want to adjust the layout again because of overlap.
 
-## Show the hashtags
+## Show the node labels
 
 Use the 'engineers board' icon to use the Ids as labels.
 
 Use the 'eject' button on the lower right to show the respective display options. Activate node labels, make the size node sized. Adjust the size with the Node slider.
+
+Also think about whether deleting some nodes (e.g. those that where actually part of the query) might be a good idea.
 
 ## Create a Partition
 
@@ -42,6 +46,6 @@ Create an appropriate time window, move it and use the play button. Adjust the s
 
 Now activate the Force Atlas 2 layout and play the animation. What do you see? Can you find good parameters for the whole animation? (Hint: Try 'Dissuade Hubs'.)
 
-Which dynamics can you see over time?
+Which dynamics can you see over time? What do you think is the reason for them? What would be a good way to test your hypotheses?
 
 ## Now repeat the same with the other network!
