@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 pandas = "*"
-minet = "*"
+minet = "==1.0.0-a24"
 jupyterlab = "*"
 matplotlib = "*"
 
