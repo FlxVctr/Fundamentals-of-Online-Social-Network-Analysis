@@ -4,8 +4,6 @@
 
 Course Materials (Presentation, Lecture Notes and Notebooks)
 
-Under construction
-
 ## LECTURE 1
 
 Online Social Networks, Elements of Networks, Network Measures, Data Sources
