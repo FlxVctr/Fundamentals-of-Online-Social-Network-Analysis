@@ -14,7 +14,6 @@ Online Social Networks, Elements of Networks, Network Measures, Data Sources
 
 [Slides as PDF](https://github.com/FlxVctr/Fundamentals-of-Online-Social-Network-Analysis/raw/main/Lecture_1_Fundamentals/print-pdf.pdf)
 
-[Slides as A4 Portrait PDF, e.g., for handwritten notes](https://github.com/FlxVctr/Fundamentals-of-Online-Social-Network-Analysis/raw/main/Lecture_1_Fundamentals/1_Fundamentals.pdf)
 
 ## PRACTICAL 1: Getting and Exploring Data with Minet and Python Pandas
 
