@@ -35,14 +35,9 @@ What are your expectations for this day?
 # The Plan
 
 1. Online (Social) Media Network Fundamentals
-2. Network fundamentals
-3. *break*
+2. Data Mining Possibilities and Difficulties
+3. Network fundamentals
 4. Network Analysis Methods
-5. Data Mining Possibilities and Difficulties
-
-Afterwards:
-
-Practical on Data Collection and Exploratory Analysis with Descriptive Statistics in Python
 
 ---
 
@@ -168,6 +163,67 @@ Münch, F. V., Thies, B., Puschmann, C., & Bruns, A. (2021). Walking Through Twi
 --
 
 ![[Pasted image 20230318193931.png|x900]]
+
+
+---
+
+# Data Sources for (Online ((Social) Media)) Networks
+
+--
+
+## Repositories
+
+e.g.:
+* Netzschleuder: https://networks.skewed.de/, 
+* SNAP datasets: https://snap.stanford.edu/data/index.html
+* Network Repository: https://networkrepository.com/
+* and many more
+
+--
+
+## Repositories
+
+Pro                              | Contra
+---------------------------------|-------------------------------------------
+Easy to access                   | Old data
+Fewer legal and ethical problems | Already studied, harder to find new topics
+Good for meta studies            | Need to trust the data collector
+Good for method testing          | Available info not tailored to your needs
+
+--
+
+## API
+
+Pro                                     | Contra
+----------------------------------------|-------------------------------------------
+New/live data                           | Often not historical data
+More control over what to collect       | Ethics and data protection considerations </br> apply
+Relatively stable machine readability   | Often vetting and acceptance </br>of Terms of Service (TOS)
+Legally quite safe                      | Rate limits and accessible data </br>shape research question
+Sometimes access to additional metadata | Can be deprecated/shut down
+
+--
+
+## Webscraping
+
+Pro                                     | Contra
+----------------------------------------|-------------------------------------------
+New/live data                           | Kind of unstable machine readability
+More control over what to collect       | More Ethics and data protection </br>considerations apply
+No vetting or acceptance of TOS         | Active countermeasures by platforms
+No rate limits                          | Technically often more complex setup
+In best case WYSIWYG                    | 
+
+
+--
+
+Also possible, but less common for large networks:
+
+* Surveys
+* Questionaires
+* Data Donations
+* "Manual" Collection
+* ...
 
 ---
 
@@ -421,65 +477,6 @@ https://www.mapequation.org/navigator/
 
 <small>Münch, F. V. (2019). _Measuring the Networked Public – Exploring Network Science Methods for Large Scale Online Media Studies_ [PhD thesis, Queensland University of Technology]. [https://doi.org/10.5204/thesis.eprints.125543](https://doi.org/10.5204/thesis.eprints.125543)</small>
 
----
-
-# Data Sources for (Online ((Social) Media)) Networks
-
---
-
-## Repositories
-
-e.g.:
-* Netzschleuder: https://networks.skewed.de/, 
-* SNAP datasets: https://snap.stanford.edu/data/index.html
-* Network Repository: https://networkrepository.com/
-* and many more
-
---
-
-## Repositories
-
-Pro                              | Contra
----------------------------------|-------------------------------------------
-Easy to access                   | Old data
-Fewer legal and ethical problems | Already studied, harder to find new topics
-Good for meta studies            | Need to trust the data collector
-Good for method testing          | Available info not tailored to your needs
-
---
-
-## API
-
-Pro                                     | Contra
-----------------------------------------|-------------------------------------------
-New/live data                           | Often not historical data
-More control over what to collect       | Ethics and data protection considerations </br> apply
-Relatively stable machine readability   | Often vetting and acceptance </br>of Terms of Service (TOS)
-Legally quite safe                      | Rate limits and accessible data </br>shape research question
-Sometimes access to additional metadata | Can be deprecated/shut down
-
---
-
-## Webscraping
-
-Pro                                     | Contra
-----------------------------------------|-------------------------------------------
-New/live data                           | Kind of unstable machine readability
-More control over what to collect       | More Ethics and data protection </br>considerations apply
-No vetting or acceptance of TOS         | Active countermeasures by platforms
-No rate limits                          | Technically often more complex setup
-In best case WYSIWYG                    | 
-
-
---
-
-Also possible, but less common for large networks:
-
-* Surveys
-* Questionaires
-* Data Donations
-* "Manual" Collection
-* ...
 
 ---
 
