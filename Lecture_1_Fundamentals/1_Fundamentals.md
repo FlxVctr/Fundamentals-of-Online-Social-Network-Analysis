@@ -28,7 +28,11 @@ Who are you?
 
 Why did you choose this course?
 
-What are your expectations for this day?
+What's your experience with network analysis so far?
+
+What's your experience with programming and/or Python so far?
+
+What are your expectations for this course?
 
 ---
 
