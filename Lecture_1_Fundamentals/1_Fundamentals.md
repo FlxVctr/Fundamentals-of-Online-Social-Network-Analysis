@@ -178,9 +178,10 @@ Münch, F. V., Thies, B., Puschmann, C., & Bruns, A. (2021). Walking Through Twi
 ## Repositories
 
 e.g.:
-* Netzschleuder: https://networks.skewed.de/, 
-* SNAP datasets: https://snap.stanford.edu/data/index.html
-* Network Repository: https://networkrepository.com/
+* Netzschleuder: https://networks.skewed.de/,
+* https://icon.colorado.edu/, 
+* SNAP datasets: https://snap.stanford.edu/data/index.html,
+* Network Repository: https://networkrepository.com/,
 * and many more
 
 --
