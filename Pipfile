@@ -5,11 +5,11 @@ name = "pypi"
 
 [packages]
 pandas = "*"
-minet = "==1.0.0-a24"
+minet = "*"
 jupyterlab = "*"
 matplotlib = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.10"
+python_version = "3.13"
